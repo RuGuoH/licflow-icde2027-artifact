@@ -1,0 +1,75 @@
+{
+  "analysis_success": true,
+  "derived_license": "Unlicense",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "rights error",
+      "info": "Work PubMed does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "rights error",
+      "info": "Work E_PubMed does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to LGPL-LR of Deep-sequoia"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to CC-BY-NC-ND-4.0 of PubMed"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Deep-sequoia according to LGPL-LR"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to LGPL-LR of Deep-sequoia"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of E_Deep-sequoia according to LGPL-LR"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to LGPL-LR of E_Deep-sequoia"
+    },
+    {
+      "type": "licenses error",
+      "info": "Work PubMed CONNOT BE SHARED due to the prohibition of license CC-BY-NC-ND-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of E_PubMed according to CC-BY-NC-ND-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-NC-ND-4.0 of E_PubMed"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of NLLB-200 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of NLLB-200"
+    }
+  ],
+  "engine_events": {
+    "errors": [
+      "licenses error",
+      "rights error"
+    ],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "analysis_success": true,
+  "derived_license": "mistral-ai-research-license_user_license",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "rights error",
+      "info": "Work Mistral-Large-2 does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Mistral-7B according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of Mistral-7B"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to Apache-2.0 of Mistral-7B"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Mistral-Large-2 according to mistral-ai-research-license_user_license"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to mistral-ai-research-license_user_license of Mistral-Large-2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Mistral-7B according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of Mistral-7B"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to mistral-ai-research-license_user_license of Mistral-Large-2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Mistral-Large-2 according to mistral-ai-research-license_user_license"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to mistral-ai-research-license_user_license of Mistral-Large-2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to mistral-ai-research-license_user_license of A_Mistral-7B_Mistral-Large-2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of A_Mistral-7B_Mistral-Large-2 according to mistral-ai-research-license_user_license"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to mistral-ai-research-license_user_license of A_Mistral-7B_Mistral-Large-2"
+    }
+  ],
+  "engine_events": {
+    "errors": [
+      "rights error"
+    ],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

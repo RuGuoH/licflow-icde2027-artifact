@@ -1,0 +1,85 @@
+available: true
+categories:
+- public
+- software
+- permissive
+compat: []
+coverage:
+- duplicate
+- derivative
+- modification
+full_name: Apache License 2.0
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+short_id: Apache-2.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - separable
+  - link
+  - interface
+  relicense: true
+  result: independent
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - revision
+  - modification
+  relicense: true
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+url: https://www.apache.org/licenses/LICENSE-2.0
+version: 2

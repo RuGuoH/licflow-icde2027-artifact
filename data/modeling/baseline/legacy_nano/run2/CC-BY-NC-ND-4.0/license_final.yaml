@@ -1,0 +1,84 @@
+full_name: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+short_id: CC-BY-NC-ND-4.0
+url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+version: 4.0
+available: true
+categories:
+- public
+- data
+- content
+labels: []
+rights:
+- use
+- redistribute
+- attribution
+reserved_rights:
+- trademark_use
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- no-charge
+- irrevocable
+- any-person
+coverage: []
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  keywords:
+  - use
+  - redistribute
+  - attribution
+  relicense: false
+  copyleft: false
+- usages:
+  - use
+  - copy
+  - modify
+  - augment
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - distill
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords:
+  - use
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  keywords:
+  - modify
+  - adapt
+  - alteration
+  relicense: false
+  copyleft: false

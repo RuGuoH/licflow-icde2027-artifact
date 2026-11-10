@@ -1,0 +1,98 @@
+available: true
+categories:
+- public
+- software
+- permissive
+coverage:
+- duplicate
+- derivative
+full_name: OpenSSL License
+labels: []
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- copyright
+- patent
+- trademark
+- trademark_use
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix: []
+short_id: OpenSSL
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords: []
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - redistribution
+  - copyright notice
+  - conditions
+  - disclaimer
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modification
+  - derivative
+  - redistribution
+  - portion
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - redistribution
+  - portion
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+url: https://www.openssl.org/source/license.html
+version: null

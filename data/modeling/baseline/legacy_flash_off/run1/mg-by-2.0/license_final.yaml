@@ -1,0 +1,120 @@
+full_name: ModelGo Attribution License
+short_id: mg-by-2.0
+url: null
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- sublicensable
+- irrevocable
+- royalty-free
+reserved_rights:
+- trademark_use
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  keywords:
+  - use
+  - reproduce
+  - publicly display
+  - publicly perform
+  - Distribute
+  relicense: true
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  keywords:
+  - reproduce
+  - copy
+  - Distribute
+  relicense: true
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - state_changes
+  keywords:
+  - modify
+  - modification
+  - Derivative Materials
+  - derivative works
+  - improvements
+  relicense: true
+  copyleft: false
+- usages:
+  - distribute
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  keywords:
+  - Distribute
+  - Distribution
+  - hosted service
+  - API-based access
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - Output
+  - generated
+  relicense: true
+  copyleft: false

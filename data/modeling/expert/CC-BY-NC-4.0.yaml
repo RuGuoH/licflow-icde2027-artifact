@@ -1,0 +1,110 @@
+available: true
+categories:
+- public
+- data
+- proprietary
+- auto-relicensing
+compat:
+- CC-BY-NC-SA
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+full_name: Creative Commons Attribution Non Commercial 4.0
+labels:
+- Creative Commons
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- sublicense
+- commercial_use
+- trademark_use
+- patent_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+rights_prefix:
+- worldwide
+- royalty-free
+- non-sublicensable
+- non-exclusive
+- irrevocable
+short_id: CC-BY-NC-4.0
+terms:
+- forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- forms:
+  - raw
+  - binary
+  keywords:
+  - reproduce
+  - adaptation
+  - remix
+  relicense: conditional
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+- forms:
+  - raw
+  - binary
+  keywords:
+  - collection
+  - arrangement
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  keywords:
+  - adaptation
+  - translation
+  relicense: false
+  restrictions:
+  - state_changes
+  result: translation
+  usages:
+  - embed
+- forms:
+  - raw
+  - binary
+  keywords:
+  - reproduce
+  - remix
+  relicense: false
+  restrictions:
+  - state_changes
+  result: modification
+  usages:
+  - augment
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - combine_mix
+  - train
+  - distill
+  - generate
+  - stat
+url: https://creativecommons.org/licenses/by-nc/4.0/
+version: 4.0

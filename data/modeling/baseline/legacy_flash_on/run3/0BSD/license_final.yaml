@@ -1,0 +1,43 @@
+full_name: BSD Zero Clause License
+short_id: 0BSD
+url: null
+version: null
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+reserved_rights:
+- copyright
+rights_prefix: []
+coverage:
+- duplicate
+- modification
+redistribute: []
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - use
+  - copy
+  - modify
+  - distribute
+  - purpose
+  relicense: true
+  copyleft: false

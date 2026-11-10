@@ -1,0 +1,135 @@
+full_name: STABILITY AI NON-COMMERCIAL RESEARCH COMMUNITY LICENSE AGREEMENT
+short_id: stability-ai-community-license
+url: https://stability.ai/use-policy
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- copyleft
+- proprietary
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+reserved_rights:
+- trademark_use
+- sublicense
+- commercial_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+- non-sublicensable
+- revocable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  - include_use_restriction
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  - include_use_restriction
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions:
+  - include_use_restriction
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  - include_use_restriction
+  relicense: false
+  copyleft: true
+- usages:
+  - train
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms: &id001
+  - raw
+  - binary
+  - saas
+  result: NODEF
+- usages:
+  - distill
+  forms: *id001
+  result: NODEF
+  restrictions:
+  - include_use_restriction

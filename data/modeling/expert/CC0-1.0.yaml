@@ -1,0 +1,62 @@
+available: true
+categories:
+- public
+- data
+- permissive
+coverage: []
+full_name: Creative Commons CC0 1.0
+labels:
+- Creative Commons
+- Public Domain
+redistribute: []
+reserved_rights:
+- trademark_use
+- patent_use
+- trademark
+- patent
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- copyright
+rights_prefix:
+- worldwide
+- royalty-free
+- non-transferable
+- non-sublicensable
+- non-exclusive
+- irrevocable
+short_id: CC0-1.0
+terms:
+- forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - reproduce
+  - adapt
+  - perform
+  - translate
+  - reuse
+  relicense: true
+  result: independent
+  usages:
+  - use
+  - copy
+  - modify
+  - amalgamate
+  - combine
+  - embed
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+url: https://creativecommons.org/publicdomain/zero/1.0/
+version: 1.0

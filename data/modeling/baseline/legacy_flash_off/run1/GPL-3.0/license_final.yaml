@@ -1,0 +1,140 @@
+full_name: GNU General Public License
+short_id: GPL-3.0
+url: https://www.gnu.org/licenses/
+version: '3'
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+labels:
+- OSI Approved
+- GNU
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+- sublicense
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat:
+- AGPL-3.0
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  keywords:
+  - run
+  - unmodified Program
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - copy
+  - verbatim copies
+  - convey
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - raw
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - modify
+  - modified version
+  - based on
+  - work based on the Program
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - object code
+  - Corresponding Source
+  - modified version
+  relicense: false
+  copyleft: true
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  keywords:
+  - aggregate
+  - compilation
+  - separate and independent works
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - based on
+  - work based on the Program
+  - entire work
+  relicense: false
+  copyleft: true
+- usages:
+  - use
+  forms:
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - network
+  - interaction
+  - not conveying
+  relicense: true
+  copyleft: false

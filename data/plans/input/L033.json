@@ -1,0 +1,8 @@
+{
+  "id": "L033",
+  "title": "Wikimedia multimodal distill + amalgamate sell",
+  "input": {
+    "nl_description": "利用 Wikimedia 辅助将 I2VGen-XL 蒸馏到 X-Clip，再与 MaskFormer 和 Whisper 融合后出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

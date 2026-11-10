@@ -1,0 +1,94 @@
+full_name: Creative Commons Attribution-ShareAlike 4.0 International
+short_id: CC-BY-SA-4.0
+url: https://creativecommons.org/licenses/by-sa/4.0/
+version: 4.0
+available: true
+categories:
+- public
+- data
+- model
+- copyleft
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+reserved_rights:
+- trademark_use
+- patent
+- trademark
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - use
+  - copy
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - modify
+  - adapt
+  - alteration
+  - derivative works
+  relicense: false
+  copyleft: false
+- usages:
+  - embed
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - output
+  - result
+  - generation
+  relicense: false
+  copyleft: false

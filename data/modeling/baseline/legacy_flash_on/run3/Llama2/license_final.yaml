@@ -1,0 +1,102 @@
+full_name: LLAMA 2 Community License
+short_id: Llama2
+url: null
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels:
+- Responsible AI
+- Use Restriction
+- Meta
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - use
+  - reproduce
+  - distribute
+  - copy
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: modification
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - modify
+  - modifications
+  - derivative works
+  - create derivative works
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords:
+  - output
+  - results
+  - generate
+  - content
+  relicense: false
+  copyleft: false
+- usages:
+  - train
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords:
+  - improve
+  - large language model
+  relicense: false
+  copyleft: false

@@ -1,0 +1,8 @@
+{
+  "id": "L044",
+  "title": "Hybrid pipeline order swapped (L040 variant)",
+  "input": {
+    "nl_description": "先将 ccmixter 输入由 whisper、stable diffusion、i2vgen-xl 三个模型依次组成的生成链得到 B，前一个模型的输出作为后一个模型的输入，再将 stocksnap、midjourney、thingverse 与 vimeo 融合为 A，最后将 B 与 A 组合出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

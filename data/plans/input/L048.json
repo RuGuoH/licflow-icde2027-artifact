@@ -1,0 +1,8 @@
+{
+  "id": "L048",
+  "title": "Embed corpus + combine SaaS sell (L001 S6)",
+  "input": {
+    "nl_description": "我想要把 deep sequoia 和 pubmed 分别用 NLLB-200 翻译之后，将翻译结果与 NLLB-200 一起以在线服务的形式打包出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

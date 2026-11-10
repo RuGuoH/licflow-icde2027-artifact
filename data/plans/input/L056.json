@@ -1,0 +1,8 @@
+{
+  "id": "L056",
+  "title": "Unknown Llama-3.1 license modeling — distill amalgamate (L031 derived)",
+  "input": {
+    "nl_description": "将 BLOOM 蒸馏到 BERT，再与采用 llama-3.1-community-license-agreement 许可证的 Llama-3.1 和 BigTranslate 融合后出售，分析许可合规风险。",
+    "locale": "zh"
+  }
+}

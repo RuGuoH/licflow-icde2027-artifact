@@ -1,0 +1,90 @@
+available: true
+categories:
+- public
+- model
+- software
+- proprietary
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: TENCENT HUNYUAN COMMUNITY LICENSE AGREEMENT
+incompat: []
+labels:
+- Use Restriction
+redistribute:
+- include_license
+- include_notice
+- include_use_restriction
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix:
+- non-exclusive
+- worldwide
+- non-transferable
+- royalty-free
+short_id: tencent-hunyuan-community-license-agreement_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions:
+  - include_license
+  - include_notice
+  - state_changes
+  - include_use_restriction
+  result: derivative
+  usages:
+  - modify
+  - train
+  - amalgamate
+  - distill
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_use_restriction
+  result: independent
+  usages:
+  - generate
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - combine
+  - combine_mix
+  - embed
+  - stat
+url: https://github.com/Tencent-Hunyuan
+version: null

@@ -1,0 +1,86 @@
+available: true
+categories:
+- public
+- data
+- copyleft
+- disclose
+- auto-relicensing
+coverage:
+- duplicate
+- derivative
+full_name: Lesser General Public License For Linguistic Resources
+labels:
+- GNU
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- sublicense
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix:
+- no-charge
+- royalty-free
+short_id: LGPL-LR
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  relicense: false
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+  - augment
+  - embed
+  - generate
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - aggregation
+  - collection
+  - separate
+  relicense: true
+  result: independent
+  usages:
+  - combine_mix
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - program
+  relicense: true
+  result: independent
+  usages:
+  - train
+  - distill
+  - stat
+url: https://spdx.org/licenses/LGPLLR.html
+version: none

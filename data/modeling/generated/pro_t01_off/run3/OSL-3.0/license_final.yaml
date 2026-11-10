@@ -1,0 +1,107 @@
+full_name: OSL-3.0
+short_id: OSL-3.0
+url: https://example.com/license/OSL-3.0
+version: '3.0'
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- commercial_use
+- merge
+- patent_use
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- sublicensable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - embed:0.601
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

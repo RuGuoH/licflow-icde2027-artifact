@@ -1,0 +1,54 @@
+full_name: Creative Commons Legal Code
+short_id: CC0-1.0
+url: https://example.com/license/CC0-1.0
+version: null
+available: true
+categories:
+- public
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+- copyright
+reserved_rights:
+- patent
+- trademark
+- trademark_use
+rights_prefix: []
+coverage: []
+redistribute: []
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - combine
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - reproduce
+  - adapt
+  - reuse
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  forms:
+  - raw
+  - binary
+  result: NODEF

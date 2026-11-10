@@ -1,0 +1,75 @@
+available: true
+categories:
+- public
+- software
+- permissive
+- disclose
+coverage:
+- duplicate
+- derivative
+full_name: Academic Free License v3.0
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+rights_prefix:
+- worldwide
+- royalty-free
+- non-exclusive
+- sublicensable
+short_id: AFL-3.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - adapt
+  - alter
+  - modify
+  - translate
+  relicense: true
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - combine
+  - train
+  - distill
+  - generate
+  - embed
+url: https://opensource.org/license/afl-3-0-php/
+version: 3.0

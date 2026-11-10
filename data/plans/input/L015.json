@@ -1,0 +1,8 @@
+{
+  "id": "L015",
+  "title": "Finetune BERT MoE swapped order (L010 variant)",
+  "input": {
+    "nl_description": "我用 Wikipedia 微调了 BERT，将其与 BLOOM、I2VGen-XL、Whisper 按此顺序组成 MoE 后以 SaaS 形式出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

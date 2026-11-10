@@ -1,0 +1,69 @@
+full_name: MIT License
+short_id: MIT
+url: https://opensource.org/licenses/MIT
+version: null
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+- copyright
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - augment
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result:
+  - duplicate
+  - derivative
+  - modification
+  - translation
+  - NODEF
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  - include_runtime_restriction
+  relicense: false
+  copyleft: false

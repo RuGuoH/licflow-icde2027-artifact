@@ -1,0 +1,101 @@
+full_name: Adobe Research License
+short_id: adobe-research-license_user_license
+url: https://www.adobe.com
+version: null
+available: true
+categories:
+- public
+- proprietary
+labels:
+- Adobe
+- Research Only
+- Non-Commercial
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- trademark
+- patent
+- copyright
+- commercial_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- revocable
+- no-charge
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - use
+  - display
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - reproduce
+  - redistribute
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - modifications
+  - derivative works
+  - modify
+  relicense: conditional
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - amalgamate
+  - generate
+  - combine
+  - combine_mix
+  - augment
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

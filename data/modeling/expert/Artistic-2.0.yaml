@@ -1,0 +1,93 @@
+available: true
+categories:
+- public
+- software
+- permissive
+- disclose
+coverage:
+- duplicate
+- derivative
+full_name: Artistic License v2.0
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+- sublicense
+rights_prefix:
+- worldwide
+- non-exclusive
+- no-charge
+short_id: Artistic-2.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - binary
+  - saas
+  keywords:
+  - extend
+  relicense: true
+  result: independent
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  keywords:
+  - aggregate
+  relicense: true
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - modified
+  - changed
+  relicense: true
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+url: https://opensource.org/license/artistic-2-0/
+version: 2.0

@@ -1,0 +1,8 @@
+{
+  "id": "L045",
+  "title": "Generate chain + single combine sell",
+  "input": {
+    "nl_description": "将 ccmixter 依次用 whisper、baize、stable diffusion、i2vgen-xl 生成后，再与 stocksnap 组合出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

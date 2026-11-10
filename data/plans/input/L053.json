@@ -1,0 +1,8 @@
+{
+  "id": "L053",
+  "title": "Unknown BLOOM license modeling — MoE SaaS (L010 derived)",
+  "input": {
+    "nl_description": "用户已提供 BLOOM 的许可协议全文；用 Wikipedia 微调 BERT，将其与 Baize 和 BLOOM 组成 MoE 后提供 API 服务，分析许可合规风险。",
+    "locale": "zh"
+  }
+}

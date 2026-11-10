@@ -1,0 +1,74 @@
+full_name: Zero-Clause BSD License
+short_id: 0BSD
+url: https://spdx.org/licenses/0BSD.html
+version: null
+available: true
+categories:
+- public
+- software
+- permissive
+labels:
+- OSI Approved
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- copyright
+- patent
+- trademark
+rights_prefix: []
+coverage:
+- duplicate
+restrictions: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  - copy
+  - distribute
+  - portion
+  relicense: false
+  copyleft: false
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  keywords:
+  - modify
+  relicense: true
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - combine_mix
+  - augment
+  - stat
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: NODEF

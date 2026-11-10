@@ -1,0 +1,82 @@
+full_name: ModelGo Zero License
+short_id: mg0-2.0
+url: null
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- sublicensable
+- irrevocable
+- royalty-free
+reserved_rights:
+- trademark_use
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute: []
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  keywords:
+  - use
+  - reproduce
+  - Distribute
+  relicense: true
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  keywords:
+  - Derivative Materials
+  - improvements
+  - modifications
+  - derivative works
+  relicense: true
+  copyleft: false
+- usages:
+  - distribute
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  keywords:
+  - Distribution
+  - Distribute
+  - hosted service
+  - API-based access
+  relicense: true
+  copyleft: false

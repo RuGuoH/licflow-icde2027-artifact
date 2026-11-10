@@ -1,0 +1,54 @@
+{
+  "analysis_success": true,
+  "derived_license": "GPL-3.0",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "rights error",
+      "info": "Work Qwen does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to GPL-3.0 of Baize"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to qwen-research-license-agreement_user_license of Qwen"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Qwen according to qwen-research-license-agreement_user_license"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Baize according to GPL-3.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to GPL-3.0 of Baize"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of C_Qwen_Baize according to GPL-3.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to GPL-3.0 of C_Qwen_Baize"
+    }
+  ],
+  "engine_events": {
+    "errors": [
+      "rights error"
+    ],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+available: true
+categories:
+- public
+- software
+- permissive
+coverage:
+- duplicate
+- derivative
+full_name: Educational Community License v2.0
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- patent_use
+- commercial_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+short_id: ECL-2.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - separable
+  - link
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  - reproduction
+  relicense: true
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+url: https://opensource.org/license/ecl-2-0/
+version: 2.0

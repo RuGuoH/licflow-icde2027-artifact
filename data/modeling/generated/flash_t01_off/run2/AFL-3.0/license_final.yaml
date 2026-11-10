@@ -1,0 +1,106 @@
+full_name: Academic Free License (“AFL”) v. 3.0
+short_id: AFL-3.0
+url: https://example.com/license/AFL-3.0
+version: '3.0'
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- merge
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+- patent
+- trademark
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- sublicensable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - state_changes
+  relicense: conditional
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

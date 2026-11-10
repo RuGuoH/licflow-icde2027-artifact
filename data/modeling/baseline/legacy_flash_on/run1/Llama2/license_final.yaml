@@ -1,0 +1,124 @@
+full_name: LLAMA 2 Community License
+short_id: Llama2
+url: null
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels:
+- Use Restriction
+- Meta
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  - access
+  - Llama Materials
+  - Acceptable Use Policy
+  - commercial
+  - monthly active users
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - copy
+  - reproduce
+  - distribute
+  - Llama Materials
+  - Agreement
+  - Notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: modification
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - modifications
+  - derivative works
+  - Llama Materials
+  - Agreement
+  - Notice
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  keywords:
+  - output
+  - results
+  - generate
+  - content
+  - Llama 2
+- usages:
+  - train
+  forms:
+  - raw
+  result: NODEF
+  keywords:
+  - improve
+  - large language model
+  - Llama Materials
+- usages:
+  - distill
+  forms:
+  - raw
+  - saas
+  result: NODEF
+  keywords:
+  - output
+  - results
+  - improve
+  - large language model

@@ -1,0 +1,965 @@
+--- # List of Dict
+- # We first list the supported usages and their required rights here.
+  copy: [use]
+  use: [use]
+  share: [redistribute]
+  sell: [redistribute, commercial_use]
+  modify: [modify]
+  train: [use, modify]
+  combine: [use, merge]
+  combine_mix: [use, merge]
+  amalgamate: [use, modify]
+  distill: [use]
+  generate: [use]
+  embed: [use, modify]
+  stat: [use]
+
+
+- # Belows are metadata of licenses
+  full_name: Apache License 2.0 # Software License
+  short_id: Apache-2.0
+  url: https://www.apache.org/licenses/LICENSE-2.0
+  version: 2
+  available: true
+  categories: [public, software, permissive]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable]
+  coverage: [duplicate, derivative, modification] # The range of sharing allowed, independent and NODEF always allowed to be shared
+  redistribute: [include_notice, include_license] # Requirements for redistribution
+  compat: []
+  terms: # Definition of use methods and according terms
+    - usages: [use, copy] # use this work implies you hold a copy of this work
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [raw, binary]
+      result: independent
+      keywords: [separable, link, interface]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [revision, modification]
+      relicense: true
+      copyleft: false
+    - usages: [train, distill, generate, embed]
+      forms: [raw, binary]
+      result: NODEF
+
+- # We also use Unlicese to represented those works w/o any restrictions (such as independent work)
+  full_name: The Unlicense # Software License (Public Domain)
+  short_id: Unlicense
+  url: https://opensource.org/license/unlicense/
+  version: null
+  available: true
+  categories: [public, software, data, model, permissive] # The Unlicense is designed for software, but we use this as the default license of data and model too
+  labels: [Public Domain]
+  rights: [use, modify, merge, redistribute, commercial_use, copyright]
+  reserved_rights: []
+  rights_prefix: []
+  coverage: []
+  redistribute: []
+  terms:
+    - usages: [use, copy, modify]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+-
+  full_name: MIT License # Software License
+  short_id: MIT
+  url: https://opensource.org/license/mit/
+  version: none
+  available: true
+  categories: [public, software, permissive]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use]
+  reserved_rights: [copyright, patent, trademark]
+  rights_prefix: [any-person, no-charge]
+  coverage: [duplicate]
+  redistribute: [include_notice, include_license]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [raw, binary]
+      result: independent
+      restrictions: []
+      keywords: [portion]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate, modify, train, distill, generate, embed]
+      forms: [raw, binary]
+      result: NODEF
+
+-
+  full_name: Academic Free License v3.0 # Software License
+  short_id: AFL-3.0
+  url: https://opensource.org/license/afl-3-0-php/
+  version: 3.0
+  available: true
+  categories: [public, software, permissive, disclose] # disclose means the licensed work must provide its source code, this requirement will be proliferated if this license is copyleft (e.g. GPL)
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-exclusive, sublicensable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [adapt, alter, modify, translate]
+      relicense: true
+      copyleft: false
+    - usages: [combine, train, distill, generate, embed]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+-
+  full_name: Artistic License v2.0 # Software License
+  short_id: Artistic-2.0
+  url: https://opensource.org/license/artistic-2-0/
+  version: 2.0
+  available: true
+  categories: [public, software, permissive, disclose]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, commercial_use, patent_use, sublicense]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, non-exclusive, no-charge]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [binary, saas]
+      keywords: [extend]
+      result: independent
+      relicense: true
+      copyleft: false
+    - usages: [combine]
+      forms: [raw]
+      keywords: [aggregate]
+      result: derivative
+      restrictions: [state_changes]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary, saas]
+      result: derivative
+      keywords: [modified, changed]
+      restrictions: [state_changes]
+      relicense: true
+      copyleft: false
+    - usages: [train, distill, generate, embed]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+-
+  full_name: GNU General Public License v3.0 # Software License (copyleft)
+  short_id: GPL-3.0
+  url: https://www.gnu.org/licenses/gpl-3.0.en.html
+  version: 3.0
+  available: true
+  categories: [public, software, copyleft, disclose, auto-relicensing] # The auto-relicensing can waive the requirement of sublicensing.
+  labels: [OSI Approved, GNU]
+  rights: [use, modify, merge, redistribute, commercial_use, patent_use]
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark]
+  rights_prefix: [non-exclusive, worldwide, royalty-free, irrevocable] 
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  compat: [AGPL-3.0]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary] # w/o saas
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [binary]
+      result: independent
+      restrictions: []
+      keywords: [separate, aggregate]
+      relicense: true
+      copyleft: false
+    - usages: [combine]
+      forms: [raw]
+      result: derivative
+      restrictions: [state_changes]
+      relicense: conditional
+      copyleft: true
+    - usages: [distill, generate]
+      forms: [raw, binary]
+      result: independent
+      keywords: [output]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [link]
+      relicense: conditional
+      copyleft: true
+    - usages: [modify]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [modify]
+      relicense: false
+      copyleft: true
+    - usages: [train, embed]
+      forms: [raw, binary]
+      result: NODEF
+
+-
+  full_name: GNU Affero General Public License v3.0 # Software License (copyleft)
+  short_id: AGPL-3.0
+  url: https://www.gnu.org/licenses/agpl-3.0.en.html
+  version: 3.0
+  available: true
+  categories: [public, software, copyleft, disclose, auto-relicensing] # The auto-relicensing can waive the requirement of sublicensing.
+  labels: [OSI Approved, GNU]
+  rights: [use, modify, merge, redistribute, commercial_use, patent_use]
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark]
+  rights_prefix: [non-exclusive, worldwide, royalty-free, irrevocable] 
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary, saas] # contain saas
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [binary, saas]
+      result: independent
+      keywords: [separate, aggregate]
+      relicense: true
+      copyleft: false
+    - usages: [combine]
+      forms: [raw]
+      result: derivative
+      restrictions: [state_changes]
+      relicense: false
+      copyleft: true
+    - usages: [distill, generate]
+      forms: [raw, binary, saas]
+      result: independent
+      keywords: [output]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [link, modify]
+      relicense: false
+      copyleft: true
+    - usages: [train, embed]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+-
+  full_name: GNU Lesser General Public License v3.0 # Software License (copyleft), GPL style license for software libraries
+  short_id: LGPL-3.0
+  url: https://www.gnu.org/licenses/lgpl-3.0.en.html
+  version: 3.0
+  available: true
+  categories: [public, software, copyleft, disclose] # w/o auto-relicensing, w/o disclose
+  labels: [OSI Approved, GNU]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark]
+  rights_prefix: [non-exclusive, worldwide, royalty-free, irrevocable] 
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  compat: [GPL-3.0]
+  terms: &LGPL3terms
+    - usages: [use, copy]
+      forms: [raw, binary] # w/o saas
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine] # The only different compare to GPL
+      forms: [raw, binary]
+      result: independent
+      restrictions: []
+      keywords: [separate, aggregate]
+      relicense: true
+      copyleft: false
+    - usages: [distill, generate]
+      forms: [raw, binary]
+      result: independent
+      keywords: [output]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [link]
+      relicense: conditional
+      copyleft: true
+    - usages: [modify]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [modify]
+      relicense: false
+      copyleft: true
+    - usages: [train, embed]
+      forms: [raw, binary]
+      result: NODEF
+
+-
+  full_name: GNU Lesser General Public License v2.1 # Software License (copyleft)
+  short_id: LGPL-2.1
+  url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+  version: 2.1
+  available: true
+  categories: [public, software, copyleft, disclose] # w/o auto-relicensing, w/o disclose
+  labels: [OSI Approved, GNU]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark]
+  rights_prefix: [non-exclusive, worldwide, royalty-free, irrevocable] 
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  compat: [GPL-2.0]
+  terms: *LGPL3terms # Same as LGPL-3.0
+
+-
+  full_name: The 3-Clause BSD License # Software License
+  short_id: BSD-3-Clause
+  url: https://opensource.org/license/bsd-3-clause/
+  version: None
+  available: true
+  categories: [public, software, permissive]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: []
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms: &BSD3terms
+    - usages: [use, copy]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: []
+      keywords: [modify]
+      relicense: true
+      copyleft: false
+    - usages: [combine, train, distill, generate, embed]
+      forms: [raw, binary]
+      result: NODEF
+
+-
+  full_name: BSD 3-Clause Clear License # Software License
+  short_id: BSD-3-Clause-Clear
+  url: https://spdx.org/licenses/BSD-3-Clause-Clear.html
+  version: None
+  available: true
+  categories: [public, software, permissive]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use]
+  reserved_rights: [trademark_use, patent_use, copyright, patent, trademark] # The only difference compared to BSD-3-Clause is patent_use
+  rights_prefix: []
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms: *BSD3terms
+
+-
+  full_name: The 2-Clause BSD License # Software License, similar as BSD-3-Clause
+  short_id: BSD-2-Clause
+  url: https://opensource.org/license/bsd-2-clause/
+  version: None
+  available: true
+  categories: [public, software, permissive]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use]
+  reserved_rights: [copyright, patent, trademark] # No explict prohibition on trademark_use 
+  rights_prefix: []
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms: *BSD3terms
+
+-
+  full_name: Do What The F*ck You Want To Public License v2.0 # Software License (Public Domain)
+  short_id: WTFPL-2.0
+  url: https://spdx.org/licenses/WTFPL.html
+  version: 2.0
+  available: true
+  categories: [public, software, permissive]
+  labels: [Public Domain]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: []
+  rights_prefix: []
+  coverage: []
+  redistribute: []
+  terms:
+    - usages: [use, copy, modify]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+-
+  full_name: Open Software License v3.0 # Software License (copyleft)
+  short_id: OSL-3.0
+  url: https://opensource.org/license/osl-3-0-php/
+  version: 3.0
+  available: true
+  categories: [public, software, copyleft, disclose]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, patent_use, commercial_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-exclusive, sublicensable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [adapt, alter, transform, modify, arrange]
+      relicense: false
+      copyleft: true
+    - usages: [embed, train, distill, generate]
+      forms: [raw, binary]
+      result: NODEF
+
+-
+  full_name: Educational Community License v2.0 # Software License
+  short_id: ECL-2.0
+  url: https://opensource.org/license/ecl-2-0/
+  version: 2.0
+  available: true
+  categories: [public, software, permissive]
+  labels: [OSI Approved]
+  rights: [use, modify, merge, redistribute, sublicense, patent_use, commercial_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [combine]
+      forms: [raw, binary]
+      result: independent
+      restrictions: []
+      keywords: [separable, link]
+      relicense: true
+      copyleft: false
+    - usages: [amalgamate, modify]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [modify, reproduction]
+      relicense: true
+      copyleft: false
+    - usages: [train, distill, generate, embed]
+      forms: [raw, binary]
+      result: NODEF
+
+# NOTE: Due to there are some distinction between mix two 'data' work and mix 'data' and 'model' / 'software',
+# we provide combine and combine_mix to distinguish these two situations.
+-
+  full_name: Creative Commons CC0 1.0 # Data License (Public Domain)
+  short_id: CC0-1.0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  version: 1.0
+  available: true
+  categories: [public, data, permissive]
+  labels: [Creative Commons, Public Domain]
+  rights: [use, modify, merge, redistribute, commercial_use, copyright]
+  reserved_rights: [trademark_use, patent_use, trademark, patent]
+  rights_prefix: [worldwide, royalty-free, non-transferable, non-sublicensable, non-exclusive, irrevocable]
+  coverage: []
+  redistribute: []
+  terms:
+    - usages: [use, copy, modify, amalgamate, combine, embed] # Combine means combination of data and data.
+      forms: [raw, binary, saas]
+      result: independent
+      keywords: [reproduce, adapt, perform, translate, reuse]
+      relicense: true
+    - usages: [train, distill, generate]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+- 
+  full_name: Creative Commons Attribution 4.0 # Data License
+  short_id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  version: 4.0
+  available: true
+  categories: [public, data, permissive, auto-relicensing]
+  labels: [Creative Commons]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [sublicense, trademark_use, patent_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable]
+  coverage: [duplicate, derivative, modification, translation]
+  redistribute: [include_notice, include_license]
+  compat: [CC-BY-SA, CC-BY-NC, CC-BY-NC-SA]
+  terms: &CCBYterms
+    - usages: [use, copy]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+    - usages: [amalgamate]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [reproduce, adaptation, remix]
+      relicense: conditional
+    - usages: [combine]
+      forms: [raw, binary]
+      result: independent
+      restrictions: []
+      keywords: [collection, arrangement] # https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/
+      relicense: true
+    - usages: [embed]
+      forms: [raw, binary]
+      result: translation
+      restrictions: [state_changes]
+      keywords: [adaptation, translation]
+      relicense: false
+    - usages: [augment, modify]
+      forms: [raw, binary]
+      result: modification
+      restrictions: [state_changes]
+      keywords: [reproduce, remix]
+      relicense: false
+    - usages: [combine_mix, train, distill, generate, stat]
+      forms: [raw, binary]
+      result: NODEF
+
+- 
+  full_name: Creative Commons Attribution Share Alike 4.0 # Data License (copyleft)
+  short_id: CC-BY-SA-4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  version: 4.0
+  available: true
+  categories: [public, data, copyleft, auto-relicensing]
+  labels: [Creative Commons]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [sublicense, trademark_use, patent_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable]
+  coverage: [duplicate, derivative, modification, translation]
+  redistribute: [include_notice, include_license]
+  compat: [GPL-3.0]
+  terms: *CCBYterms # The terms is same as CC-BY 4.0
+
+- 
+  full_name: Creative Commons Attribution Non Commercial 4.0 # Data License
+  short_id: CC-BY-NC-4.0 # Similar with CC-BY-4.0, the difference is non commercial
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+  version: 4.0
+  available: true
+  categories: [public, data, proprietary, auto-relicensing]
+  labels: [Creative Commons]
+  rights: [use, modify, merge, redistribute]
+  reserved_rights: [sublicense, commercial_use, trademark_use, patent_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable]
+  coverage: [duplicate, derivative, modification, translation]
+  redistribute: [include_notice, include_license]
+  compat: [CC-BY-NC-SA]
+  terms: *CCBYterms
+
+- 
+  full_name: Creative Commons Attribution No Derivatives 4.0 # Data License
+  short_id: CC-BY-ND-4.0
+  url: https://creativecommons.org/licenses/by-nd/4.0/
+  version: 4.0
+  available: true
+  categories: [public, data, proprietary, auto-relicensing]
+  labels: [Creative Commons]
+  rights: [use, modify, merge, redistribute, commercial_use] # Unmodified copies may be shared.
+  reserved_rights: [sublicense, trademark_use, patent_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable]
+  coverage: [duplicate] # Adaptations stay unshareable: derivative, modification, translation.
+  redistribute: [include_notice, include_license]
+  compat: [CC-BY-NC-ND] # No compat according CC, however, we can enable it for analysis purpose.
+  terms: *CCBYterms
+
+- 
+  full_name: Creative Commons Attribution Non Commercial No Derivatives 4.0 # Data License (copyleft)
+  short_id: CC-BY-NC-ND-4.0
+  url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  version: 4.0
+  available: true
+  categories: [public, data, proprietary, auto-relicensing]
+  labels: [Creative Commons]
+  rights: [use, modify, merge, redistribute] # Unmodified copies may be shared. Commercial use stays reserved.
+  reserved_rights: [sublicense, commercial_use, trademark_use, patent_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable]
+  coverage: [duplicate] # Adaptations stay unshareable: derivative, modification, translation.
+  redistribute: [include_notice, include_license]
+  compat: []
+  terms: *CCBYterms
+
+- 
+  full_name: Creative Commons Attribution Non Commercial Share Alike 4.0 # Data License (copyleft)
+  short_id: CC-BY-NC-SA-4.0 # Similar with CC-BY-SA-4.0, the difference is non commercial
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  version: 4.0
+  available: true
+  categories: [public, data, proprietary, copyleft, auto-relicensing]
+  labels: [Creative Commons]
+  rights: [use, modify, merge, redistribute]
+  reserved_rights: [sublicense, commercial_use, trademark_use, patent_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable]
+  coverage: [duplicate, derivative, modification, translation]
+  redistribute: [include_notice, include_license]
+  compat: []
+  terms: *CCBYterms
+
+-
+  full_name: Open Data Commons Public Domain Dedication and License v1.0 # Data License (Public Domain)
+  short_id: PDDL
+  url: https://opendatacommons.org/licenses/pddl/1-0/
+  version: 1.0
+  available: true
+  categories: [public, data, permissive]
+  labels: [Open Data Commons, Public Domain]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, copyright]
+  reserved_rights: [trademark_use, patent_use, trademark, patent]
+  rights_prefix: [worldwide, royalty-free, non-exclusive, irrevocable]
+  coverage: []
+  redistribute: []
+  terms:
+    - usages: [use, copy, modify, combine, amalgamate]
+      forms: [raw, binary, saas]
+      result: independent
+      keywords: [use, modify]
+      relicense: true
+    - usages: [embed, train, distill, generate]
+      forms: [raw, binary, saas]
+      result: NODEF
+
+-
+  full_name: Computational Use of Data Agreement v1.0 # Data License
+  short_id: C-UDA
+  url: https://github.com/microsoft/Computational-Use-of-Data-Agreement/blob/master/C-UDA-1.0.md
+  version: 1.0
+  available: true
+  categories: [public, data]
+  labels: [Microsoft]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [trademark_use, patent_use, trademark, patent, copyright] # Computational use only
+  rights_prefix: [worldwide, royalty-free, non-exclusive, irrevocable]
+  coverage: [derivative, modification]
+  redistribute: [include_notice, include_use_restriction]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      keywords: [use]
+      relicense: false
+      copyleft: false
+    - usages: [modify, augment]
+      forms: [raw, binary, saas ]
+      result: modification
+      relicense: false
+      copyleft: false
+    - usages: [combine, amalgamate]
+      forms: [raw, binary, saas ]
+      result: derivative
+      relicense: false
+      copyleft: false
+    - usages: [embed, train, distill, generate]
+      forms: [raw, binary, saas]
+      result: independent
+      keywords: [result]
+      relicense: true
+      copyleft: false
+
+- 
+  full_name: Lesser General Public License For Linguistic Resources # Data License (copyleft)
+  short_id: LGPL-LR
+  url: https://spdx.org/licenses/LGPLLR.html
+  version: none
+  available: true
+  categories: [public, data, copyleft, disclose, auto-relicensing] # with auto-relicensing
+  labels: [GNU]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark]
+  rights_prefix: [no-charge, royalty-free] 
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [modify, amalgamate, augment, embed, generate, combine] # The new work is a linguistic resource 
+      forms: [raw, binary] # The program used for augmenting, embedding, ... must be disclosed
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [modify]
+      relicense: false
+      copyleft: true
+    - usages: [combine_mix] # mere aggregation (refer to combine with other models or algorithms), the new work is not a linguistic resource
+      forms: [raw, binary]
+      result: independent
+      keywords: [aggregation, collection, separate]
+      relicense: true
+      copyleft: false
+    - usages: [train, distill, stat] # The new work is not a linguistic resource
+      forms: [raw, binary]
+      result: independent
+      keywords: [program]
+      relicense: true
+      copyleft: false
+
+- 
+  full_name: GNU Free Documentation License v1.3 # Data License (copyleft)
+  short_id: GFDL
+  url: https://www.gnu.org/licenses/fdl-1.3.en.html
+  version: 1.3
+  available: true
+  categories: [public, data, copyleft, disclose] # with auto-relicensing
+  labels: [GNU]
+  rights: [use, modify, merge, redistribute, commercial_use]
+  reserved_rights: [sublicense, copyright, patent, trademark]
+  rights_prefix: [worldwide, royalty-free]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license]
+  incompat: [GPL]
+  terms:
+    - usages: [use, copy]
+      forms: [raw, binary]
+      result: duplicate
+      restrictions: []
+      relicense: false
+      copyleft: false
+    - usages: [modify, combine, amalgamate, augment, embed, generate]
+      forms: [raw, binary]
+      result: derivative
+      restrictions: [state_changes]
+      keywords: [modify, combining, translation]
+      relicense: false
+      copyleft: true
+    - usages: [combine_mix, train, distill, stat] # combine_mix means combine this work with other 'software' or 'model'.
+      forms: [raw, binary]
+      result: independent
+      keywords: [aggregation]
+      relicense: true
+      copyleft: false
+
+- 
+  full_name: Open RAIL++-M # Model License
+  short_id: OpenRAIL++
+  url: https://huggingface.co/stabilityai/stable-diffusion-2/blob/main/LICENSE-MODEL 
+  version: null
+  available: true
+  categories: [public, model]
+  labels: [OpenRAIL, Responsible AI, Use Restriction]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license, include_use_restriction]
+  incompat: [GPL, AGPL, LGPL, GFDL]
+  terms: &OpenRAILterms
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      restrictions: [include_use_restriction, include_runtime_restriction]
+      relicense: false
+      copyleft: false
+    - usages: [generate]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [include_use_restriction, include_runtime_restriction]
+      keywords: [transfer, modification]
+      relicense: conditional
+      copyleft: false
+    - usages: [combine, amalgamate, modify, distill, train]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [state_changes, include_use_restriction, include_runtime_restriction]
+      keywords: [transfer, modification]
+      relicense: conditional
+      copyleft: false
+
+- 
+  full_name: CreativeML Open RAIL-M # Model License, same as OpenRAIL++
+  short_id: CreativeML-OpenRAIL-M
+  url: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+  version: null
+  available: true
+  categories: [public, model]
+  labels: [OpenRAIL, Responsible AI, Use Restriction]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license, include_use_restriction]
+  incompat: [GPL, AGPL, LGPL, GFDL]
+  terms: *OpenRAILterms
+
+- 
+  full_name: BigScience RAIL License v1.0 # Model License, same as OpenRAIL++
+  short_id: BigScience-BLOOM-RAIL-1.0
+  url: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
+  version: 1.0
+  available: true
+  categories: [public, model]
+  labels: [OpenRAIL, Responsible AI, Use Restriction]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license, include_use_restriction]
+  incompat: [GPL, AGPL, LGPL, GFDL]
+  terms: *OpenRAILterms
+
+- 
+  full_name: BigScience Open RAIL-M License # Model License, same as OpenRAIL++
+  short_id: BigScience-BLOOM-OpenRAIL-M
+  url: https://bigscience.huggingface.co/blog/bigscience-openrail-m
+  version: null
+  available: true
+  categories: [public, model]
+  labels: [OpenRAIL, Responsible AI, Use Restriction]
+  rights: [use, modify, merge, redistribute, sublicense, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable]
+  coverage: [duplicate, derivative]
+  redistribute: [include_notice, include_license, include_use_restriction]
+  incompat: [GPL, AGPL, LGPL, GFDL]
+  terms: *OpenRAILterms
+
+- 
+  full_name: OPT-175B # Model License (Proprietary)
+  short_id: OPT-175B
+  url: https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md
+  version: null
+  available: true
+  categories: [model, proprietary]
+  labels: [Meta, Use Restriction]
+  rights: [use, modify, merge, redistribute, patent_use] # The redistribution right is not granted.
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark, commercial_use]
+  rights_prefix: [non-exclusive, worldwide, non-transferable, non-sublicensable, revocable, royalty-free]
+  coverage: [duplicate, derivative]
+  redistribute: [include_license, include_notice]
+  terms: &OPT175Bterms
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      restrictions: [include_use_restriction]
+      relicense: false
+      copyleft: true
+    - usages: [combine, amalgamate, modify, distill, generate, train]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [include_use_restriction]
+      keywords: [modify, reproduce, incorporate]
+      relicense: false
+      copyleft: true
+
+- 
+  full_name: SEER # Model License (Proprietary), same as OPT-175B
+  short_id: SEER
+  url: https://github.com/facebookresearch/vissl/blob/main/projects/SEER/MODEL_LICENSE.md
+  version: null
+  available: true
+  categories: [model, proprietary]
+  labels: [Meta, Use Restriction]
+  rights: [use, modify, merge, redistribute, patent_use]
+  reserved_rights: [sublicense, trademark_use, copyright, patent, trademark, commercial_use]
+  rights_prefix: [non-exclusive, worldwide, non-transferable, non-sublicensable, revocable, royalty-free]
+  coverage: [duplicate]
+  redistribute: []
+  terms: *OPT175Bterms
+
+- 
+  full_name: Llama2 # Model License
+  short_id: Llama2
+  url: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+  version: null
+  available: true
+  categories: [public, model, proprietary]
+  labels: [Meta, Use Restriction]
+  rights: [use, modify, merge, redistribute, commercial_use, patent_use]
+  reserved_rights: [trademark_use, copyright, patent, trademark]
+  rights_prefix: [worldwide, non-exclusive, non-transferable, no-charge, royalty-free]
+  coverage: [duplicate, derivative]
+  redistribute: [include_license, include_notice, include_use_restriction]
+  terms: 
+    - usages: [use, copy]
+      forms: [raw, binary, saas]
+      result: duplicate
+      restrictions: [include_notice, include_use_restriction]
+      relicense: false
+      copyleft: false
+    - usages: [generate]
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: [include_use_restriction]
+      keywords: [outputs]
+      relicense: conditional
+      copyleft: false
+    - usages: [combine, combine_mix, amalgamate, modify, train]
+      forms: [raw, binary, saas]
+      result: derivative
+      keywords: [portion]
+      restrictions: []
+      relicense: conditional
+      copyleft: false
+    - usages: [distill] # Llama2 cannot be used to improve any other LLM
+      forms: [raw, binary, saas]
+      result: derivative
+      restrictions: []
+      relicense: conditional
+      copyleft: false
+
+...

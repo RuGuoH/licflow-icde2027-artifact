@@ -1,0 +1,108 @@
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+- copyleft
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: Stability AI Non-Commercial Research Community License Agreement
+incompat: []
+labels:
+- Stability AI
+- Research Only
+- Non-Commercial
+- Use Restriction
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+reserved_rights:
+- trademark
+- trademark_use
+- sublicense
+- patent
+- copyright
+- commercial_use
+rights:
+- use
+- modify
+- merge
+- redistribute
+rights_prefix:
+- non-exclusive
+- non-transferable
+- non-sublicensable
+- revocable
+- royalty-free
+- worldwide
+short_id: stability-ai-community-license_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+  - train
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_use_restriction
+  result: independent
+  usages:
+  - generate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions:
+  - include_use_restriction
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+url: https://stability.ai/license
+version: null

@@ -1,0 +1,132 @@
+full_name: Lesser General Public License For Linguistic Resources
+short_id: LGPL-LR
+url: https://example.com/license/LGPL-LR
+version: null
+available: true
+categories:
+- public
+- data
+- copyleft
+- auto-relicensing
+- disclose
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+reserved_rights:
+- sublicense
+- patent_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- royalty-free
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - binary
+  - raw
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+- usages:
+  - combine_mix
+  forms:
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - separate work
+  - aggregation
+  - mixed aggregation
+  - work that uses
+  - link
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - state_changes
+  relicense: false
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - augment
+  - stat
+  forms:
+  - raw
+  - binary
+  result: NODEF
+- usages:
+  - embed
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true

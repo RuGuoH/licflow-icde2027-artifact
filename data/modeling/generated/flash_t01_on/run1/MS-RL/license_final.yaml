@@ -1,0 +1,106 @@
+full_name: Microsoft Reciprocal License (Ms-RL)
+short_id: MS-RL
+url: https://example.com/license/MS-RL
+version: null
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+- trademark
+- copyright
+- patent
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  relicense: false
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

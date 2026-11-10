@@ -1,0 +1,34 @@
+_audit:
+  osadl_file: MIT-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - redistribute
+  - redistribute_slices
+  schema_gaps: []
+categories:
+  copyleft: false
+  disclose: false
+copyleft_status: 'no'
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+redistribute:
+  include_license: true
+  include_notice: true
+redistribute_slices:
+- forms:
+  - raw
+  include_license: true
+  include_notice: true
+- forms:
+  - binary
+  include_license: true
+  include_notice: true
+short_id: MIT

@@ -1,0 +1,64 @@
+available: true
+categories:
+- public
+- software
+- permissive
+coverage:
+- duplicate
+- derivative
+full_name: BSD 3-Clause Clear License
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- patent_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+rights_prefix: []
+short_id: BSD-3-Clause-Clear
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  relicense: true
+  restrictions: []
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - combine
+  - train
+  - distill
+  - generate
+  - embed
+url: https://spdx.org/licenses/BSD-3-Clause-Clear.html
+version: None

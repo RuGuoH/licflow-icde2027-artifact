@@ -1,0 +1,51 @@
+_audit:
+  osadl_file: Artistic-2.0-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - disclose_forms
+  - redistribute
+  - redistribute_slices
+  - patent_hints
+  - license_choice
+  - terms_slices
+  schema_gaps:
+  - patent_hints.metadata_only
+categories:
+  copyleft: false
+  disclose: true
+copyleft_status: 'no'
+disclose_forms:
+- raw
+- binary
+license_choice: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+patent_hints: true
+redistribute:
+  include_notice: true
+redistribute_slices:
+- forms:
+  - raw
+  include_notice: true
+short_id: Artistic-2.0
+terms_slices:
+- forms:
+  - binary
+  obligations:
+  - source_disclosure
+  when:
+  - software_modification
+- forms:
+  - raw
+  obligations:
+  - source_disclosure
+  when:
+  - software_modification

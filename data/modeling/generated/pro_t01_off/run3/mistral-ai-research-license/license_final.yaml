@@ -1,0 +1,126 @@
+full_name: Mistral AI Research License
+short_id: mistral-ai-research-license
+url: https://mistral.ai/contact/
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- trademark_use
+- sublicense
+- commercial_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+- non-sublicensable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - train
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: false
+  keywords:
+  - train
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: conditional
+  copyleft: false
+- usages:
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

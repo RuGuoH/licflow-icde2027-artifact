@@ -1,0 +1,114 @@
+full_name: Llama 3.1 Community License Agreement
+short_id: llama-3.1-community-license-agreement
+url: https://llama.meta.com/llama3_1/community-license/
+version: "3.1"
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels:
+- Meta
+- Use Restriction
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark
+- trademark_use
+- patent
+- copyright
+rights_prefix:
+- non-exclusive
+- non-transferable
+- royalty-free
+- worldwide
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - use
+  - reproduce
+  - distribute
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - train
+  - amalgamate
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions: []
+  keywords:
+  - derivative works
+  - fine-tune
+  - train
+  relicense: conditional
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - derivative works
+  - fine-tune
+  - train
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions:
+  - include_use_restriction
+  keywords:
+  - Output
+  relicense: true
+  copyleft: false
+- usages:
+  - combine_mix
+  - augment
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

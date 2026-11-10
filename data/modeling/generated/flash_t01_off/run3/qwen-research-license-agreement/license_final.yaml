@@ -1,0 +1,134 @@
+full_name: Qwen RESEARCH LICENSE AGREEMENT
+short_id: qwen-research-license-agreement
+url: https://example.com/license/qwen-research-license-agreement
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+- sublicense
+- commercial_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_license
+- include_notice
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: true
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - embed:0.614
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: conditional
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - train
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: true
+  copyleft: false
+  keywords:
+  - train
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  relicense: true
+  copyleft: false
+- usages:
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

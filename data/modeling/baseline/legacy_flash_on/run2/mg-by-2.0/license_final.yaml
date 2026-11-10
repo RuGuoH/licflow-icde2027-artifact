@@ -1,0 +1,106 @@
+full_name: ModelGo Attribution License
+short_id: mg-by-2.0
+url: null
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+- sublicensable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - use
+  - reproduce
+  - Distribute
+  - copyright notice
+  - attribution notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - improvements
+  - modifications
+  - derivative works
+  - modified
+  relicense: true
+  copyleft: false
+- usages:
+  - train
+  forms:
+  - raw
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - training
+  - pretraining
+  - fine-tuning
+  - improvements
+  relicense: true
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  result: independent
+  restrictions: []
+  keywords:
+  - distillation
+  - transferring patterns
+  - Output
+  - synthetic data generation
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  result: NODEF

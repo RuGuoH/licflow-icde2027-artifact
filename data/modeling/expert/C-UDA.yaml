@@ -1,0 +1,80 @@
+available: true
+categories:
+- public
+- data
+coverage:
+- derivative
+- modification
+full_name: Computational Use of Data Agreement v1.0
+labels:
+- Microsoft
+redistribute:
+- include_notice
+- include_use_restriction
+reserved_rights:
+- trademark_use
+- patent_use
+- trademark
+- patent
+- copyright
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix:
+- worldwide
+- royalty-free
+- non-exclusive
+- irrevocable
+short_id: C-UDA
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - use
+  relicense: false
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  result: modification
+  usages:
+  - modify
+  - augment
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  result: derivative
+  usages:
+  - combine
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - result
+  relicense: true
+  result: independent
+  usages:
+  - embed
+  - train
+  - distill
+  - generate
+url: https://github.com/microsoft/Computational-Use-of-Data-Agreement/blob/master/C-UDA-1.0.md
+version: 1.0

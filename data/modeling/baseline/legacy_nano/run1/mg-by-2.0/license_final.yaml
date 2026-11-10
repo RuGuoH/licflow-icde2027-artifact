@@ -1,0 +1,94 @@
+full_name: ModelGo Attribution License
+short_id: mg-by-2.0
+url: null
+version: 2025
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- patent_use
+- commercial_use
+reserved_rights:
+- trademark_use
+- patent
+- copyright
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+- include_runtime_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  - copy
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  - include_runtime_restriction
+  keywords:
+  - modify
+  - adapt
+  - alteration
+  - derivative works
+  relicense: false
+  copyleft: false
+- usages:
+  - distribute
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  - include_runtime_restriction
+  keywords:
+  - portion
+  - collection
+  - aggregate
+  relicense: false
+  copyleft: false

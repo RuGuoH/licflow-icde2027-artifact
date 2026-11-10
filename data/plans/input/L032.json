@@ -1,0 +1,8 @@
+{
+  "id": "L032",
+  "title": "Distill I2VGen to X-Clip + amalgamate sell",
+  "input": {
+    "nl_description": "将 I2VGen-XL 的知识蒸馏到 X-Clip，再与 MaskFormer 和 Whisper 融合后出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

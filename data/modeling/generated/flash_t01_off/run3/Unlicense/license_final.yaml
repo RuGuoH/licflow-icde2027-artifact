@@ -1,0 +1,32 @@
+full_name: This is free and unencumbered software released into the public domain.
+short_id: Unlicense
+url: https://example.com/license/Unlicense
+version: null
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+- merge
+- copyright
+reserved_rights: []
+rights_prefix: []
+coverage: []
+redistribute: []
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  forms:
+  - raw
+  - binary
+  result: NODEF

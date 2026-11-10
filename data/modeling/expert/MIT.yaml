@@ -1,0 +1,63 @@
+available: true
+categories:
+- public
+- software
+- permissive
+coverage:
+- duplicate
+full_name: MIT License
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+rights_prefix:
+- any-person
+- no-charge
+short_id: MIT
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - portion
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - amalgamate
+  - modify
+  - train
+  - distill
+  - generate
+  - embed
+url: https://opensource.org/license/mit/
+version: none

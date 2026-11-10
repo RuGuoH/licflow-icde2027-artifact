@@ -1,0 +1,118 @@
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: Mistral AI Research License
+incompat: []
+labels:
+- Research Only
+- Use Restriction
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+reserved_rights:
+- trademark
+- trademark_use
+- sublicense
+- patent
+- copyright
+- commercial_use
+rights:
+- use
+- modify
+- merge
+- redistribute
+rights_prefix:
+- non-exclusive
+- non-sublicensable
+- non-transferable
+- royalty-free
+- worldwide
+short_id: mistral-ai-research-license_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - use
+  - copy
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+  - train
+  - amalgamate
+  - augment
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions:
+  - include_license
+  - include_notice
+  - state_changes
+  - include_use_restriction
+  result: derivative
+  usages:
+  - distill
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - output
+  - result
+  - generation
+  relicense: true
+  restrictions:
+  - include_use_restriction
+  result: independent
+  usages:
+  - generate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - combine_mix
+url: https://mistral.ai
+version: null

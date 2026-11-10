@@ -1,0 +1,129 @@
+full_name: ModelGo Attribution License
+short_id: mg-by-2.0
+url: https://example.com/license/mg-by-2.0
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- model
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+- patent_use
+reserved_rights:
+- copyright
+- patent
+- trademark
+- trademark_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+- sublicensable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: true
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+  - distill
+- usages:
+  - train
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: true
+  copyleft: false
+  keywords:
+  - train
+  - distill
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: true
+  copyleft: false
+- usages:
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

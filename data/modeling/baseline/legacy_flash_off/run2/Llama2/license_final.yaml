@@ -1,0 +1,123 @@
+full_name: Llama 2 Community License
+short_id: Llama2
+url: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels:
+- Meta
+- Responsible AI
+- Use Restriction
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- sublicense
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - use
+  - reproduce
+  - copy
+  - attribution notice
+  - Acceptable Use Policy
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: modification
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - modify
+  - modifications
+  - derivative works
+  - create derivative works
+  relicense: false
+  copyleft: false
+- usages:
+  - distribute
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - distribute
+  - redistribution
+  - provide a copy of this Agreement
+  - attribution notice
+  relicense: false
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords:
+  - output
+  - results
+  relicense: false
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords:
+  - improve
+  - large language model
+  - output
+  - results
+  relicense: false
+  copyleft: false

@@ -1,0 +1,133 @@
+full_name: BigScience RAIL License v1.0
+short_id: BigScience-BLOOM-RAIL-1.0
+url: null
+version: '1.0'
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels:
+- Responsible AI
+- Use Restriction
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- patent_use
+- commercial_use
+reserved_rights:
+- trademark_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_runtime_restriction
+  keywords:
+  - use
+  - running
+  - evaluating
+  - creating any content
+  - chatbot
+  - translator
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - reproduce
+  - distribute
+  - copies
+  - Distribution
+  - hosted service
+  - software-as-a-service
+  - remote access
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  - include_use_restriction
+  keywords:
+  - modifications
+  - modified files
+  - Derivatives of the Model
+  relicense: conditional
+  copyleft: false
+- usages:
+  - train
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - finetuning
+  - training
+  - distillation
+  - reparametrizing
+  - updating
+  - Derivatives of the Model
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  keywords:
+  - Output
+  - Generate
+  - creating any content
+  - machine generated
+  relicense: true
+  copyleft: false

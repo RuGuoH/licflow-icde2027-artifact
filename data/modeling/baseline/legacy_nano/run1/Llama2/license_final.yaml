@@ -1,0 +1,50 @@
+full_name: Llama2
+short_id: Llama2
+url: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+version: null
+available: true
+categories:
+- public
+- software
+- model
+labels: []
+rights:
+- use
+- reproduce
+- distribute
+- modify
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- non-exclusive
+- worldwide
+- no-charge
+- royalty-free
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: true

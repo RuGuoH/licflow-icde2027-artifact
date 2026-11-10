@@ -1,0 +1,65 @@
+full_name: Copyright (C) YEAR by AUTHOR EMAIL
+short_id: 0BSD
+url: https://example.com/license/0BSD
+version: null
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+- merge
+reserved_rights:
+- copyright
+- patent
+- trademark
+rights_prefix: []
+coverage:
+- duplicate
+redistribute: []
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: NODEF
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - amalgamate
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

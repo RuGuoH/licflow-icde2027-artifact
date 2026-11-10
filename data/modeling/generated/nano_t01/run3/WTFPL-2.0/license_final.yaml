@@ -1,0 +1,31 @@
+full_name: DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+short_id: WTFPL-2.0
+url: https://example.com/license/WTFPL-2.0
+version: '2'
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+reserved_rights: []
+rights_prefix: []
+coverage: []
+redistribute: []
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  forms:
+  - raw
+  - binary
+  result: NODEF

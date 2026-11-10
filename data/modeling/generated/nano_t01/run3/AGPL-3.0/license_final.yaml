@@ -1,0 +1,68 @@
+full_name: GNU Affero General Public License
+short_id: AGPL-3.0
+url: https://www.gnu.org/licenses/agpl-3.0.html
+version: 3
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+- usages:
+  - modify
+  - copy
+  - generate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+- usages:
+  - generate
+  - copy
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  result: NODEF

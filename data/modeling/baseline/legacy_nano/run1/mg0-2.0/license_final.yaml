@@ -1,0 +1,101 @@
+full_name: ModelGo Zero License
+short_id: mg0-2.0
+url: null
+version: 2.0
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+- copyright
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - augment
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - distill
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - use
+  - reproduce
+  - publicly display
+  - publicly perform
+  - Distribute
+  relicense: false
+  copyleft: false
+- usages:
+  - use
+  - copy
+  - modify
+  - augment
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - distill
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - use
+  - generate
+  - output
+  - result
+  relicense: false
+  copyleft: false

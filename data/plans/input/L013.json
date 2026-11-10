@@ -1,0 +1,8 @@
+{
+  "id": "L013",
+  "title": "Finetune BERT MoE raw sell (L010 variant)",
+  "input": {
+    "nl_description": "我用 Wikipedia 微调了 BERT，将其与 Whisper、I2VGen-XL 和 BLOOM 组成 MoE 后以 raw 形式打包出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

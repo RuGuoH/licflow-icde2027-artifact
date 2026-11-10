@@ -1,0 +1,91 @@
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: Llama 3.2 Community License Agreement
+incompat: []
+labels:
+- Meta
+- Use Restriction
+- Responsible AI
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+reserved_rights:
+- trademark
+- patent
+- trademark_use
+- copyright
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix:
+- non-exclusive
+- non-transferable
+- royalty-free
+- worldwide
+short_id: llama-32-community-license-agreement_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: derivative
+  usages:
+  - modify
+  - train
+  - distill
+  - amalgamate
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - generate
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - combine_mix
+  - augment
+  - embed
+  - stat
+url: https://llama.meta.com/llama-downloads
+version: '3.2'

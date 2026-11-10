@@ -1,0 +1,114 @@
+full_name: ModelGo Attribution License
+short_id: mg-by-2.0
+url: null
+version: 2.0
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+- sublicensable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  keywords:
+  - reproduce
+  - Distribute
+  - Licensed Materials
+  - copyright notice
+  - attribution notice
+  relicense: false
+  copyleft: false
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  keywords:
+  - use
+  - Licensed Materials
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - train
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  - state_changes
+  - include_notice
+  keywords:
+  - modified
+  - modifications
+  - improvements
+  - derivative works
+  - fine-tuning
+  - training
+  - pretraining
+  - Derivative Materials
+  relicense: true
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - distillation
+  - Output
+  - patterns
+  - model
+  - synthetic data generation
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  result: NODEF

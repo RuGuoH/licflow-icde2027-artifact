@@ -1,0 +1,8 @@
+{
+  "id": "L031",
+  "title": "Distill bloom to bert + amalgamate sell (case 4.2)",
+  "input": {
+    "nl_description": "将 bloom 的知识蒸馏到 bert 中，然后将此模型与 llama2 和 bigtranslate 进行融合后出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

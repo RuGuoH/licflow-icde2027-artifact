@@ -1,0 +1,115 @@
+available: true
+categories:
+- public
+- software
+- model
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: ModelGo Attribution-ResponsibleAI License
+incompat: []
+labels:
+- Responsible AI
+- Use Restriction
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+- sublicense
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+rights_prefix:
+- non-exclusive
+- non-sublicensable
+- revocable
+- royalty-free
+- worldwide
+short_id: mg-by-rai-2.0_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  - include_use_restriction
+  result: derivative
+  usages:
+  - modify
+  - train
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  result: derivative
+  usages:
+  - distill
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  result: independent
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_use_restriction
+  result: independent
+  usages:
+  - generate
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - stat
+url: https://www.modelgo.li/
+version: '2.0'

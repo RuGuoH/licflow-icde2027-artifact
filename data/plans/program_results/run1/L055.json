@@ -1,0 +1,78 @@
+{
+  "analysis_success": true,
+  "derived_license": "GPL-3.0",
+  "events": [
+    {
+      "type": "analysis error",
+      "info": "Work Llama2 under Llama2 CONNOT BE RELICENSED to license GPL-3.0 due to incompatibility."
+    },
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the RUNTIME restriction terms according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to GPL-3.0 of BigTranslate"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of BERT according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of BERT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Llama2 of Llama2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Llama2 according to Llama2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to Llama2 of Llama2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of BigTranslate according to GPL-3.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to GPL-3.0 of BigTranslate"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of A_D_BLOOM_BERT_Llama2_BigTranslate according to GPL-3.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to GPL-3.0 of A_D_BLOOM_BERT_Llama2_BigTranslate"
+    }
+  ],
+  "engine_events": {
+    "errors": [
+      "analysis error"
+    ],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

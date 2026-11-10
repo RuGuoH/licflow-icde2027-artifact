@@ -1,0 +1,96 @@
+full_name: Apache License Version 2.0
+short_id: Apache-2.0
+url: http://www.apache.org/licenses/LICENSE-2.0
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+- sublicensable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_license
+  keywords:
+  - reproduce
+  - copies
+  - distribute
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: modification
+  restrictions:
+  - include_license
+  - include_notice
+  - state_changes
+  keywords:
+  - Derivative Works
+  - modified files
+  - modifications
+  - changed
+  relicense: true
+  copyleft: false
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_license
+  keywords:
+  - separable
+  - link
+  - bind by name
+  - interfaces
+  relicense: true
+  copyleft: false

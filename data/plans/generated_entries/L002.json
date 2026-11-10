@@ -1,0 +1,98 @@
+{
+  "analysis_success": true,
+  "derived_license": "LGPL-LR",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "rights error",
+      "info": "Work arXiv does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "rights error",
+      "info": "Work E_arXiv does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to CC-BY-NC-SA-4.0 of arXiv"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to CC-BY-SA-4.0 of StackExchange"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to LGPL-LR of Deep-sequoia"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of arXiv according to CC-BY-NC-SA-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-NC-SA-4.0 of arXiv"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of E_arXiv according to CC-BY-NC-SA-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-NC-SA-4.0 of E_arXiv"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of StackExchange according to CC-BY-SA-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-SA-4.0 of StackExchange"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of E_StackExchange according to CC-BY-SA-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-SA-4.0 of E_StackExchange"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Deep-sequoia according to LGPL-LR"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to LGPL-LR of Deep-sequoia"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-ND-4.0 of FreeLaw"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of FreeLaw according to CC-BY-ND-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of C_E_arXiv_E_StackExchange_Deep-sequoia_FreeLaw according to LGPL-LR"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to LGPL-LR of C_E_arXiv_E_StackExchange_Deep-sequoia_FreeLaw"
+    }
+  ],
+  "engine_events": {
+    "errors": [
+      "rights error"
+    ],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

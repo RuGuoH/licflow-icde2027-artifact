@@ -1,0 +1,8 @@
+{
+  "id": "L070",
+  "title": "LGPL-Lib + DETR combine raw sell (LGPL raw vs L069 saas)",
+  "input": {
+    "nl_description": "将 LGPL-Lib 与 DETR 打包以可分发形式出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

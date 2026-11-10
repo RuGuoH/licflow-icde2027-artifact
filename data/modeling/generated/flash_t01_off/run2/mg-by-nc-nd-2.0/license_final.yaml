@@ -1,0 +1,129 @@
+full_name: ModelGo Attribution-NonCommercial-NoDerivatives License
+short_id: mg-by-nc-nd-2.0
+url: https://example.com/license/mg-by-nc-nd-2.0
+version: '2.0'
+available: true
+categories:
+- software
+- model
+- proprietary
+labels: []
+rights:
+- use
+- redistribute
+- modify
+- merge
+- patent_use
+reserved_rights:
+- trademark_use
+- commercial_use
+- sublicense
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-sublicensable
+- revocable
+coverage:
+- duplicate
+redistribute:
+- include_license
+- include_notice
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions: []
+  relicense: false
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+  - distill
+- usages:
+  - train
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - train
+  - distill
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

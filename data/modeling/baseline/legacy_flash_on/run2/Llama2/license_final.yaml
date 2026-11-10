@@ -1,0 +1,114 @@
+full_name: LLAMA 2 Community License
+short_id: Llama2
+url: null
+version: 2
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels:
+- Use Restriction
+- Meta
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  - Acceptable Use Policy
+  - Llama Materials
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - copy
+  - reproduce
+  - distribute
+  - Notice
+  - Agreement
+  - Acceptable Use Policy
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - modify
+  - modifications
+  - derivative works
+  - distribute
+  - Notice
+  - Agreement
+  - Acceptable Use Policy
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords: []
+  relicense: false
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions: []
+  keywords: []
+  relicense: false
+  copyleft: false

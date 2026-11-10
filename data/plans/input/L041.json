@@ -1,0 +1,8 @@
+{
+  "id": "L041",
+  "title": "Simplified hybrid pipeline combine sell",
+  "input": {
+    "nl_description": "将 stocksnap、midjourney、thingverse 三个数据集融合为 A，将 ccmixter 输入由 whisper、stable diffusion、i2vgen-xl 三个模型依次组成的生成链得到 B，前一个模型的输出作为后一个模型的输入，再将 A 与 B 组合出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

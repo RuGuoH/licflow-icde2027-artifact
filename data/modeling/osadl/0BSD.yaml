@@ -1,0 +1,22 @@
+_audit:
+  osadl_file: 0BSD-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - zero_obligations
+  schema_gaps: []
+categories:
+  copyleft: false
+  disclose: false
+copyleft_status: 'no'
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+short_id: 0BSD
+zero_obligations: true

@@ -1,0 +1,58 @@
+available: true
+categories:
+- public
+- data
+- permissive
+coverage: []
+full_name: Open Data Commons Public Domain Dedication and License v1.0
+labels:
+- Open Data Commons
+- Public Domain
+redistribute: []
+reserved_rights:
+- trademark_use
+- patent_use
+- trademark
+- patent
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- copyright
+rights_prefix:
+- worldwide
+- royalty-free
+- non-exclusive
+- irrevocable
+short_id: PDDL
+terms:
+- forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - use
+  - modify
+  relicense: true
+  result: independent
+  usages:
+  - use
+  - copy
+  - modify
+  - combine
+  - amalgamate
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - embed
+  - train
+  - distill
+  - generate
+url: https://opendatacommons.org/licenses/pddl/1-0/
+version: 1.0

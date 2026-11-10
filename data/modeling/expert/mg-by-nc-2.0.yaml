@@ -1,0 +1,102 @@
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: ModelGo Attribution-NonCommercial License
+incompat: []
+labels: []
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+- commercial_use
+- sublicense
+rights:
+- use
+- modify
+- merge
+- redistribute
+- patent_use
+rights_prefix:
+- non-exclusive
+- non-sublicensable
+- revocable
+- royalty-free
+- worldwide
+short_id: mg-by-nc-2.0_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+  - train
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - distill
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: independent
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: true
+  restrictions:
+  - include_notice
+  result: independent
+  usages:
+  - generate
+url: https://www.modelgo.li/
+version: '2.0'

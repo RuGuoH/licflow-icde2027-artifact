@@ -1,0 +1,8 @@
+{
+  "id": "L034",
+  "title": "Distill + amalgamate share (L030 variant)",
+  "input": {
+    "nl_description": "利用 wikimedia 数据集将 I2VGen-XL 的知识蒸馏到 x-clip 中，然后将此模型与 maskformer 和 whisper 进行融合后共享，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

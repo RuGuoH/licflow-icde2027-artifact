@@ -1,0 +1,118 @@
+full_name: Attribution-NonCommercial-ShareAlike 4.0 International
+short_id: CC-BY-NC-SA-4.0
+url: https://example.com/license/CC-BY-NC-SA-4.0
+version: null
+available: true
+categories:
+- public
+- data
+- copyleft
+- auto-relicensing
+- proprietary
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+reserved_rights:
+- patent
+- trademark
+- commercial_use
+- patent_use
+- sublicense
+- copyright
+- trademark_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+- non-sublicensable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - augment
+  - modify
+  forms:
+  - raw
+  - binary
+  result: modification
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - database assimilate
+  - embed:0.604
+- usages:
+  - embed
+  forms:
+  - raw
+  - binary
+  result: translation
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: false
+  keywords:
+  - embed
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: conditional
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - generate
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

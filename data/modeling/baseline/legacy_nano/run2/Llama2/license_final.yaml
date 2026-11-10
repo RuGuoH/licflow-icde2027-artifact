@@ -1,0 +1,50 @@
+full_name: Llama 2 Community License
+short_id: Llama2
+url: https://ai.meta.com/llama/license/
+version: null
+available: true
+categories:
+- public
+- software
+- model
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- non-exclusive
+- worldwide
+- no-charge
+- royalty-free
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - merge
+  - redistribute
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false

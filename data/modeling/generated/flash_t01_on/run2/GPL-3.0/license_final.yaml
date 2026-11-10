@@ -1,0 +1,130 @@
+full_name: GNU GENERAL PUBLIC LICENSE
+short_id: GPL-3.0
+url: https://www.gnu.org/licenses/
+version: '3'
+available: true
+categories:
+- public
+- software
+- copyleft
+- auto-relicensing
+- disclose
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+- merge
+- patent_use
+reserved_rights:
+- sublicense
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat:
+- AGPL-3.0
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - work that uses
+  - link
+  - entire work
+  - aggregation
+- usages:
+  - combine
+  forms:
+  - raw
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: true
+  keywords:
+  - work that uses
+  - link
+  - entire work
+  - aggregation
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  relicense: conditional
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

@@ -1,0 +1,96 @@
+full_name: GNU LESSER GENERAL PUBLIC LICENSE
+short_id: LGPL-3.0
+url: https://fsf.org/
+version: '3'
+available: true
+categories:
+- public
+- software
+- copyleft
+- auto-relicensing
+- disclose
+labels: []
+rights:
+- redistribute
+- use
+- modify
+- merge
+- commercial_use
+reserved_rights:
+- copyright
+- patent
+- trademark
+rights_prefix: []
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+compat:
+- GPL-3.0
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: conditional
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - work that uses
+  - link
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_notice
+  relicense: true
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

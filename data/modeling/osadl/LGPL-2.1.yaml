@@ -1,0 +1,74 @@
+_audit:
+  osadl_file: LGPL-2.1-only-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - disclose_forms
+  - redistribute
+  - redistribute_slices
+  - must_not_hints
+  - prohibit_extra_restrictions
+  - grant_same_license
+  - patent_hints
+  - weak_copyleft
+  - linking_hints
+  - linking_obligations
+  - terms_slices
+  schema_gaps:
+  - prohibit_extra_restrictions.no_mg_audit
+  - patent_hints.metadata_only
+categories:
+  copyleft: true
+  disclose: true
+copyleft_status: 'yes'
+disclose_forms:
+- binary
+grant_same_license: true
+linking_hints:
+  combine_copyleft: false
+  modify_copyleft: true
+linking_obligations:
+  relink: true
+  shared_library: true
+  upgrade_to_gpl: true
+must_not_hints:
+  modify_license_ban: true
+  modify_license_notices_ban: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+patent_hints: true
+prohibit_extra_restrictions: true
+redistribute:
+  include_license: true
+  include_notice: true
+redistribute_slices:
+- forms:
+  - raw
+  include_license: true
+  include_notice: true
+- forms:
+  - binary
+  include_license: true
+  include_notice: true
+short_id: LGPL-2.1
+terms_slices:
+- forms:
+  - binary
+  restrictions:
+  - state_changes
+  when:
+  - software_modification
+- forms:
+  - raw
+  restrictions:
+  - state_changes
+  when:
+  - software_modification
+weak_copyleft: true

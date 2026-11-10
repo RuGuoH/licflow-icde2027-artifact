@@ -1,0 +1,135 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: GNU General Public License v2.0
+incompat: []
+labels:
+- OSI Approved
+- GNU
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+- sublicense
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+- merge
+rights_prefix: []
+short_id: GPL-2.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords: []
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - copy
+  - redistribute
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  - adaptation
+  - derivative work
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - aggregation
+  - collection
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+- copyleft: true
+  forms:
+  - raw
+  keywords:
+  - aggregation
+  - collection
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  result: derivative
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - binary
+  keywords:
+  - aggregation
+  - collection
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - generate
+url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+version: '2.0'

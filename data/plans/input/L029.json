@@ -1,0 +1,8 @@
+{
+  "id": "L029",
+  "title": "3-step generate chain share (omit I2VGen)",
+  "input": {
+    "nl_description": "我将 jamendo 经 whisper、stable diffusion 两步生成链（Music→Text→Image）处理后共享，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

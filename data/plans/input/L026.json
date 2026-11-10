@@ -1,0 +1,8 @@
+{
+  "id": "L026",
+  "title": "5-step generate chain share",
+  "input": {
+    "nl_description": "我将 jamendo 经 whisper、stable diffusion、i2vgen-xl、detr 四步生成链处理后，再与所用模型组合打包共享，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

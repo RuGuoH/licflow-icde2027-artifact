@@ -1,0 +1,93 @@
+available: true
+categories:
+- public
+- software
+- permissive
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: BSD 2-Clause Plus Patent License
+incompat: []
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+short_id: BSD-2-Clause-Patent
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - combine_mix
+  - augment
+  - distill
+  - train
+  - generate
+  - embed
+  - stat
+url: https://spdx.org/licenses/BSD-2-Clause-Patent.html
+version: null

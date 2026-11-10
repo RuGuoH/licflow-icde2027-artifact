@@ -1,0 +1,41 @@
+_audit:
+  osadl_file: OpenSSL-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - redistribute
+  - redistribute_slices
+  - must_not_hints
+  - attribution_hints
+  schema_gaps: []
+attribution_hints:
+  require_credit: true
+categories:
+  disclose: false
+copyleft_status: questionable
+must_not_hints:
+  modify_license_ban: true
+  promote_ban: true
+  trademark_name_ban: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+redistribute:
+  include_license: true
+  include_notice: true
+redistribute_slices:
+- forms:
+  - raw
+  include_license: true
+  include_notice: true
+- forms:
+  - binary
+  include_license: true
+  include_notice: true
+short_id: OpenSSL

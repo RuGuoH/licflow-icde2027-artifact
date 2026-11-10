@@ -1,0 +1,95 @@
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: LLaMA License Agreement 2023
+incompat: []
+labels:
+- Meta
+- Research Only
+- Non-Commercial
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+reserved_rights:
+- commercial_use
+- sublicense
+- trademark
+- trademark_use
+- patent
+- copyright
+rights:
+- use
+- modify
+- merge
+- redistribute
+rights_prefix:
+- non-exclusive
+- non-transferable
+- non-sublicensable
+- revocable
+- royalty-free
+- worldwide
+short_id: llama-license-2023_user_license
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: conditional
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  result: derivative
+  usages:
+  - modify
+  - train
+  - distill
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_use_restriction
+  result: independent
+  usages:
+  - generate
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - combine
+  - combine_mix
+  - embed
+  - augment
+  - stat
+url: https://scancode-licensedb.aboutcode.org/llama-license-2023.html
+version: '1'

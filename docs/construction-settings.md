@@ -1,0 +1,7 @@
+# Construction settings
+
+The saved question-based experiment settings are in `data/modeling/config/`. Each configuration ran three constructions for each of 60 license texts at temperature 0.1. The launchers set eight question workers per license. They supplied no reasoning parameter to gpt-4.1-nano and used larger output budgets for the reasoning-enabled DeepSeek configurations. The configuration files preserve the provider aliases used by the launchers. The paper identifies the corresponding model versions.
+
+The implementation supplies the full text when it contains at most 2,500 characters and at most eight text units. For longer texts, the pipeline selects passages by topic. Its optional embedding retrieval uses `text-embedding-3-small` and a default minimum cosine similarity of 0.60. Set `LICENSE_EMBED_SUPPLEMENT=0` to disable that retrieval for a fresh construction. The construction code also checks cues for selected topics, including adaptation restrictions, data coverage, and requirements retained downstream, before using the structured answers to assemble an entry.
+
+The cost estimates use fixed CNY rates per million tokens. Flash uses 0.02 for cached input, 1.00 for uncached input, and 4.00 for output. Pro uses 0.15, 4.50, and 13.50, respectively. Nano uses 0.70 for input and 2.80 for output. Reasoning tokens are included in completion usage and are counted once. These are pricing assumptions for the reported estimates.

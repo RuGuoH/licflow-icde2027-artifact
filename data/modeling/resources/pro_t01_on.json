@@ -1,0 +1,1802 @@
+[
+  {
+    "license_id": "0BSD",
+    "run": 1,
+    "elapsed_s": 184.43,
+    "prompt_tokens": 4869,
+    "completion_tokens": 26517,
+    "reasoning_tokens": 25942,
+    "total_tokens": 31386,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "AFL-3.0",
+    "run": 1,
+    "elapsed_s": 379.61,
+    "prompt_tokens": 8510,
+    "completion_tokens": 33668,
+    "reasoning_tokens": 33042,
+    "total_tokens": 42178,
+    "cached_input_tokens": 4864
+  },
+  {
+    "license_id": "AGPL-3.0",
+    "run": 1,
+    "elapsed_s": 458.31,
+    "prompt_tokens": 14153,
+    "completion_tokens": 65880,
+    "reasoning_tokens": 64963,
+    "total_tokens": 80033,
+    "cached_input_tokens": 6272
+  },
+  {
+    "license_id": "Apache-2.0",
+    "run": 1,
+    "elapsed_s": 515.18,
+    "prompt_tokens": 10651,
+    "completion_tokens": 47306,
+    "reasoning_tokens": 46468,
+    "total_tokens": 57957,
+    "cached_input_tokens": 1280
+  },
+  {
+    "license_id": "Artistic-2.0",
+    "run": 1,
+    "elapsed_s": 385.83,
+    "prompt_tokens": 7593,
+    "completion_tokens": 29165,
+    "reasoning_tokens": 28535,
+    "total_tokens": 36758,
+    "cached_input_tokens": 1920
+  },
+  {
+    "license_id": "BSD-2-Clause",
+    "run": 1,
+    "elapsed_s": 202.04,
+    "prompt_tokens": 5654,
+    "completion_tokens": 29695,
+    "reasoning_tokens": 29091,
+    "total_tokens": 35349,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "BSD-2-Clause-Patent",
+    "run": 1,
+    "elapsed_s": 568.2,
+    "prompt_tokens": 5505,
+    "completion_tokens": 50410,
+    "reasoning_tokens": 49781,
+    "total_tokens": 55915,
+    "cached_input_tokens": 1152
+  },
+  {
+    "license_id": "BSD-3-Clause",
+    "run": 1,
+    "elapsed_s": 520.0,
+    "prompt_tokens": 5819,
+    "completion_tokens": 39047,
+    "reasoning_tokens": 38495,
+    "total_tokens": 44866,
+    "cached_input_tokens": 896
+  },
+  {
+    "license_id": "BSD-3-Clause-Clear",
+    "run": 1,
+    "elapsed_s": 182.74,
+    "prompt_tokens": 3891,
+    "completion_tokens": 25052,
+    "reasoning_tokens": 24377,
+    "total_tokens": 28943,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "BigScience-BLOOM-OpenRAIL-M",
+    "run": 1,
+    "elapsed_s": 346.24,
+    "prompt_tokens": 8704,
+    "completion_tokens": 56665,
+    "reasoning_tokens": 55889,
+    "total_tokens": 65369,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "BigScience-BLOOM-RAIL-1.0",
+    "run": 1,
+    "elapsed_s": 234.46,
+    "prompt_tokens": 12332,
+    "completion_tokens": 43282,
+    "reasoning_tokens": 42279,
+    "total_tokens": 55614,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "C-UDA",
+    "run": 1,
+    "elapsed_s": 283.06,
+    "prompt_tokens": 6259,
+    "completion_tokens": 34815,
+    "reasoning_tokens": 34165,
+    "total_tokens": 41074,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "CC-BY-4.0",
+    "run": 1,
+    "elapsed_s": 298.55,
+    "prompt_tokens": 9257,
+    "completion_tokens": 68072,
+    "reasoning_tokens": 67307,
+    "total_tokens": 77329,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "CC-BY-NC-4.0",
+    "run": 1,
+    "elapsed_s": 352.55,
+    "prompt_tokens": 9202,
+    "completion_tokens": 59592,
+    "reasoning_tokens": 58827,
+    "total_tokens": 68794,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "CC-BY-NC-ND-4.0",
+    "run": 1,
+    "elapsed_s": 488.57,
+    "prompt_tokens": 9349,
+    "completion_tokens": 79776,
+    "reasoning_tokens": 78948,
+    "total_tokens": 89125,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "CC-BY-NC-SA-4.0",
+    "run": 1,
+    "elapsed_s": 340.22,
+    "prompt_tokens": 10883,
+    "completion_tokens": 69197,
+    "reasoning_tokens": 68364,
+    "total_tokens": 80080,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "CC-BY-ND-4.0",
+    "run": 1,
+    "elapsed_s": 433.79,
+    "prompt_tokens": 9363,
+    "completion_tokens": 77176,
+    "reasoning_tokens": 76315,
+    "total_tokens": 86539,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "CC-BY-SA-4.0",
+    "run": 1,
+    "elapsed_s": 337.19,
+    "prompt_tokens": 10829,
+    "completion_tokens": 50478,
+    "reasoning_tokens": 49784,
+    "total_tokens": 61307,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "CC0-1.0",
+    "run": 1,
+    "elapsed_s": 238.78,
+    "prompt_tokens": 6807,
+    "completion_tokens": 25481,
+    "reasoning_tokens": 24746,
+    "total_tokens": 32288,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "CreativeML-OpenRAIL-M",
+    "run": 1,
+    "elapsed_s": 257.06,
+    "prompt_tokens": 10855,
+    "completion_tokens": 45246,
+    "reasoning_tokens": 44410,
+    "total_tokens": 56101,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "ECL-2.0",
+    "run": 1,
+    "elapsed_s": 246.03,
+    "prompt_tokens": 10072,
+    "completion_tokens": 35764,
+    "reasoning_tokens": 34876,
+    "total_tokens": 45836,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "EPL-2.0",
+    "run": 1,
+    "elapsed_s": 243.57,
+    "prompt_tokens": 7635,
+    "completion_tokens": 45724,
+    "reasoning_tokens": 44915,
+    "total_tokens": 53359,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "GFDL",
+    "run": 1,
+    "elapsed_s": 262.52,
+    "prompt_tokens": 12176,
+    "completion_tokens": 54561,
+    "reasoning_tokens": 53738,
+    "total_tokens": 66737,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "GPL-2.0",
+    "run": 1,
+    "elapsed_s": 212.83,
+    "prompt_tokens": 12304,
+    "completion_tokens": 46789,
+    "reasoning_tokens": 45971,
+    "total_tokens": 59093,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "GPL-3.0",
+    "run": 1,
+    "elapsed_s": 263.7,
+    "prompt_tokens": 12758,
+    "completion_tokens": 54374,
+    "reasoning_tokens": 53651,
+    "total_tokens": 67132,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "LGPL-2.1",
+    "run": 1,
+    "elapsed_s": 304.52,
+    "prompt_tokens": 13230,
+    "completion_tokens": 47656,
+    "reasoning_tokens": 46749,
+    "total_tokens": 60886,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "LGPL-3.0",
+    "run": 1,
+    "elapsed_s": 326.79,
+    "prompt_tokens": 8081,
+    "completion_tokens": 47199,
+    "reasoning_tokens": 46559,
+    "total_tokens": 55280,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "LGPL-LR",
+    "run": 1,
+    "elapsed_s": 319.79,
+    "prompt_tokens": 9827,
+    "completion_tokens": 52388,
+    "reasoning_tokens": 51595,
+    "total_tokens": 62215,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "Llama2",
+    "run": 1,
+    "elapsed_s": 384.7,
+    "prompt_tokens": 10548,
+    "completion_tokens": 83136,
+    "reasoning_tokens": 82274,
+    "total_tokens": 93684,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "MIT",
+    "run": 1,
+    "elapsed_s": 232.69,
+    "prompt_tokens": 6153,
+    "completion_tokens": 31902,
+    "reasoning_tokens": 31145,
+    "total_tokens": 38055,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "MPL-2.0",
+    "run": 1,
+    "elapsed_s": 412.64,
+    "prompt_tokens": 9671,
+    "completion_tokens": 68417,
+    "reasoning_tokens": 67764,
+    "total_tokens": 78088,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "MPL-2.0-no-copyleft-exception",
+    "run": 1,
+    "elapsed_s": 326.45,
+    "prompt_tokens": 9713,
+    "completion_tokens": 62694,
+    "reasoning_tokens": 62032,
+    "total_tokens": 72407,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "MS-PL",
+    "run": 1,
+    "elapsed_s": 342.08,
+    "prompt_tokens": 7370,
+    "completion_tokens": 58328,
+    "reasoning_tokens": 57597,
+    "total_tokens": 65698,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "MS-RL",
+    "run": 1,
+    "elapsed_s": 399.97,
+    "prompt_tokens": 7381,
+    "completion_tokens": 67283,
+    "reasoning_tokens": 66591,
+    "total_tokens": 74664,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "OFL-1.1",
+    "run": 1,
+    "elapsed_s": 329.35,
+    "prompt_tokens": 8216,
+    "completion_tokens": 36572,
+    "reasoning_tokens": 35817,
+    "total_tokens": 44788,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "OPT-175B",
+    "run": 1,
+    "elapsed_s": 253.55,
+    "prompt_tokens": 10269,
+    "completion_tokens": 50343,
+    "reasoning_tokens": 49543,
+    "total_tokens": 60612,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "OSL-3.0",
+    "run": 1,
+    "elapsed_s": 317.18,
+    "prompt_tokens": 10165,
+    "completion_tokens": 48893,
+    "reasoning_tokens": 48091,
+    "total_tokens": 59058,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "OpenRAIL++",
+    "run": 1,
+    "elapsed_s": 224.38,
+    "prompt_tokens": 11589,
+    "completion_tokens": 43104,
+    "reasoning_tokens": 42215,
+    "total_tokens": 54693,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "OpenSSL",
+    "run": 1,
+    "elapsed_s": 217.66,
+    "prompt_tokens": 5291,
+    "completion_tokens": 32415,
+    "reasoning_tokens": 31805,
+    "total_tokens": 37706,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "PDDL",
+    "run": 1,
+    "elapsed_s": 248.67,
+    "prompt_tokens": 6458,
+    "completion_tokens": 31868,
+    "reasoning_tokens": 31189,
+    "total_tokens": 38326,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "SEER",
+    "run": 1,
+    "elapsed_s": 302.23,
+    "prompt_tokens": 8636,
+    "completion_tokens": 54196,
+    "reasoning_tokens": 53471,
+    "total_tokens": 62832,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "Unlicense",
+    "run": 1,
+    "elapsed_s": 111.93,
+    "prompt_tokens": 5329,
+    "completion_tokens": 17529,
+    "reasoning_tokens": 16898,
+    "total_tokens": 22858,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "WTFPL-2.0",
+    "run": 1,
+    "elapsed_s": 269.73,
+    "prompt_tokens": 4649,
+    "completion_tokens": 25487,
+    "reasoning_tokens": 24969,
+    "total_tokens": 30136,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "adobe-research-license",
+    "run": 1,
+    "elapsed_s": 215.85,
+    "prompt_tokens": 8336,
+    "completion_tokens": 35789,
+    "reasoning_tokens": 34944,
+    "total_tokens": 44125,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "gemma-terms-of-use",
+    "run": 1,
+    "elapsed_s": 155.27,
+    "prompt_tokens": 13031,
+    "completion_tokens": 38993,
+    "reasoning_tokens": 38211,
+    "total_tokens": 52024,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "llama-3.1-community-license-agreement",
+    "run": 1,
+    "elapsed_s": 381.43,
+    "prompt_tokens": 9708,
+    "completion_tokens": 77895,
+    "reasoning_tokens": 77081,
+    "total_tokens": 87603,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "llama-32-community-license-agreement",
+    "run": 1,
+    "elapsed_s": 290.61,
+    "prompt_tokens": 9753,
+    "completion_tokens": 56689,
+    "reasoning_tokens": 55896,
+    "total_tokens": 66442,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "llama-license-2023",
+    "run": 1,
+    "elapsed_s": 223.6,
+    "prompt_tokens": 8548,
+    "completion_tokens": 40678,
+    "reasoning_tokens": 39966,
+    "total_tokens": 49226,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "mg-by-2.0",
+    "run": 1,
+    "elapsed_s": 258.89,
+    "prompt_tokens": 11433,
+    "completion_tokens": 66186,
+    "reasoning_tokens": 65320,
+    "total_tokens": 77619,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "mg-by-nc-2.0",
+    "run": 1,
+    "elapsed_s": 290.6,
+    "prompt_tokens": 9887,
+    "completion_tokens": 47614,
+    "reasoning_tokens": 46887,
+    "total_tokens": 57501,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "mg-by-nc-nd-2.0",
+    "run": 1,
+    "elapsed_s": 239.3,
+    "prompt_tokens": 11106,
+    "completion_tokens": 49940,
+    "reasoning_tokens": 49174,
+    "total_tokens": 61046,
+    "cached_input_tokens": 512
+  },
+  {
+    "license_id": "mg-by-nc-rai-2.0",
+    "run": 1,
+    "elapsed_s": 239.68,
+    "prompt_tokens": 13301,
+    "completion_tokens": 55714,
+    "reasoning_tokens": 54776,
+    "total_tokens": 69015,
+    "cached_input_tokens": 384
+  },
+  {
+    "license_id": "mg-by-nd-2.0",
+    "run": 1,
+    "elapsed_s": 270.28,
+    "prompt_tokens": 12330,
+    "completion_tokens": 61168,
+    "reasoning_tokens": 60314,
+    "total_tokens": 73498,
+    "cached_input_tokens": 512
+  },
+  {
+    "license_id": "mg-by-rai-2.0",
+    "run": 1,
+    "elapsed_s": 288.97,
+    "prompt_tokens": 10312,
+    "completion_tokens": 46798,
+    "reasoning_tokens": 45986,
+    "total_tokens": 57110,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "mg-by-sa-2.0",
+    "run": 1,
+    "elapsed_s": 295.05,
+    "prompt_tokens": 12126,
+    "completion_tokens": 57601,
+    "reasoning_tokens": 56614,
+    "total_tokens": 69727,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "mg0-2.0",
+    "run": 1,
+    "elapsed_s": 276.36,
+    "prompt_tokens": 8529,
+    "completion_tokens": 39570,
+    "reasoning_tokens": 38844,
+    "total_tokens": 48099,
+    "cached_input_tokens": 256
+  },
+  {
+    "license_id": "mistral-ai-research-license",
+    "run": 1,
+    "elapsed_s": 310.1,
+    "prompt_tokens": 12262,
+    "completion_tokens": 53991,
+    "reasoning_tokens": 52960,
+    "total_tokens": 66253,
+    "cached_input_tokens": 128
+  },
+  {
+    "license_id": "qwen-research-license-agreement",
+    "run": 1,
+    "elapsed_s": 257.32,
+    "prompt_tokens": 10976,
+    "completion_tokens": 64256,
+    "reasoning_tokens": 63304,
+    "total_tokens": 75232,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "stability-ai-community-license",
+    "run": 1,
+    "elapsed_s": 233.13,
+    "prompt_tokens": 11600,
+    "completion_tokens": 39271,
+    "reasoning_tokens": 38330,
+    "total_tokens": 50871,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "tencent-hunyuan-community-license-agreement",
+    "run": 1,
+    "elapsed_s": 265.93,
+    "prompt_tokens": 13771,
+    "completion_tokens": 47262,
+    "reasoning_tokens": 46172,
+    "total_tokens": 61033,
+    "cached_input_tokens": 0
+  },
+  {
+    "license_id": "0BSD",
+    "run": 2,
+    "elapsed_s": 111.93,
+    "prompt_tokens": 4869,
+    "completion_tokens": 16289,
+    "reasoning_tokens": 15738,
+    "total_tokens": 21158,
+    "cached_input_tokens": 4608
+  },
+  {
+    "license_id": "AFL-3.0",
+    "run": 2,
+    "elapsed_s": 307.7,
+    "prompt_tokens": 8510,
+    "completion_tokens": 34542,
+    "reasoning_tokens": 33886,
+    "total_tokens": 43052,
+    "cached_input_tokens": 5504
+  },
+  {
+    "license_id": "AGPL-3.0",
+    "run": 2,
+    "elapsed_s": 373.68,
+    "prompt_tokens": 14153,
+    "completion_tokens": 63599,
+    "reasoning_tokens": 62779,
+    "total_tokens": 77752,
+    "cached_input_tokens": 6656
+  },
+  {
+    "license_id": "Apache-2.0",
+    "run": 2,
+    "elapsed_s": 367.31,
+    "prompt_tokens": 10651,
+    "completion_tokens": 61384,
+    "reasoning_tokens": 60586,
+    "total_tokens": 72035,
+    "cached_input_tokens": 3456
+  },
+  {
+    "license_id": "Artistic-2.0",
+    "run": 2,
+    "elapsed_s": 413.71,
+    "prompt_tokens": 7593,
+    "completion_tokens": 69007,
+    "reasoning_tokens": 68308,
+    "total_tokens": 76600,
+    "cached_input_tokens": 3200
+  },
+  {
+    "license_id": "BSD-2-Clause",
+    "run": 2,
+    "elapsed_s": 207.97,
+    "prompt_tokens": 5654,
+    "completion_tokens": 22860,
+    "reasoning_tokens": 22302,
+    "total_tokens": 28514,
+    "cached_input_tokens": 5376
+  },
+  {
+    "license_id": "BSD-2-Clause-Patent",
+    "run": 2,
+    "elapsed_s": 372.26,
+    "prompt_tokens": 6268,
+    "completion_tokens": 56162,
+    "reasoning_tokens": 55508,
+    "total_tokens": 62430,
+    "cached_input_tokens": 3072
+  },
+  {
+    "license_id": "BSD-3-Clause",
+    "run": 2,
+    "elapsed_s": 190.61,
+    "prompt_tokens": 5819,
+    "completion_tokens": 23524,
+    "reasoning_tokens": 22926,
+    "total_tokens": 29343,
+    "cached_input_tokens": 5504
+  },
+  {
+    "license_id": "BSD-3-Clause-Clear",
+    "run": 2,
+    "elapsed_s": 239.54,
+    "prompt_tokens": 4482,
+    "completion_tokens": 29431,
+    "reasoning_tokens": 28855,
+    "total_tokens": 33913,
+    "cached_input_tokens": 3712
+  },
+  {
+    "license_id": "BigScience-BLOOM-OpenRAIL-M",
+    "run": 2,
+    "elapsed_s": 242.65,
+    "prompt_tokens": 9546,
+    "completion_tokens": 52174,
+    "reasoning_tokens": 51248,
+    "total_tokens": 61720,
+    "cached_input_tokens": 4352
+  },
+  {
+    "license_id": "BigScience-BLOOM-RAIL-1.0",
+    "run": 2,
+    "elapsed_s": 284.51,
+    "prompt_tokens": 12332,
+    "completion_tokens": 58046,
+    "reasoning_tokens": 57035,
+    "total_tokens": 70378,
+    "cached_input_tokens": 5248
+  },
+  {
+    "license_id": "C-UDA",
+    "run": 2,
+    "elapsed_s": 463.02,
+    "prompt_tokens": 6259,
+    "completion_tokens": 60150,
+    "reasoning_tokens": 59474,
+    "total_tokens": 66409,
+    "cached_input_tokens": 5888
+  },
+  {
+    "license_id": "CC-BY-4.0",
+    "run": 2,
+    "elapsed_s": 343.1,
+    "prompt_tokens": 9257,
+    "completion_tokens": 71477,
+    "reasoning_tokens": 70623,
+    "total_tokens": 80734,
+    "cached_input_tokens": 4608
+  },
+  {
+    "license_id": "CC-BY-NC-4.0",
+    "run": 2,
+    "elapsed_s": 316.29,
+    "prompt_tokens": 9202,
+    "completion_tokens": 65285,
+    "reasoning_tokens": 64598,
+    "total_tokens": 74487,
+    "cached_input_tokens": 4480
+  },
+  {
+    "license_id": "CC-BY-NC-ND-4.0",
+    "run": 2,
+    "elapsed_s": 388.2,
+    "prompt_tokens": 9349,
+    "completion_tokens": 76327,
+    "reasoning_tokens": 75523,
+    "total_tokens": 85676,
+    "cached_input_tokens": 7936
+  },
+  {
+    "license_id": "CC-BY-NC-SA-4.0",
+    "run": 2,
+    "elapsed_s": 273.12,
+    "prompt_tokens": 10883,
+    "completion_tokens": 58477,
+    "reasoning_tokens": 57640,
+    "total_tokens": 69360,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "CC-BY-ND-4.0",
+    "run": 2,
+    "elapsed_s": 364.28,
+    "prompt_tokens": 9363,
+    "completion_tokens": 83391,
+    "reasoning_tokens": 82534,
+    "total_tokens": 92754,
+    "cached_input_tokens": 7808
+  },
+  {
+    "license_id": "CC-BY-SA-4.0",
+    "run": 2,
+    "elapsed_s": 387.28,
+    "prompt_tokens": 10829,
+    "completion_tokens": 58798,
+    "reasoning_tokens": 57972,
+    "total_tokens": 69627,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "CC0-1.0",
+    "run": 2,
+    "elapsed_s": 208.12,
+    "prompt_tokens": 6807,
+    "completion_tokens": 20806,
+    "reasoning_tokens": 20005,
+    "total_tokens": 27613,
+    "cached_input_tokens": 6400
+  },
+  {
+    "license_id": "CreativeML-OpenRAIL-M",
+    "run": 2,
+    "elapsed_s": 271.04,
+    "prompt_tokens": 12013,
+    "completion_tokens": 56754,
+    "reasoning_tokens": 55667,
+    "total_tokens": 68767,
+    "cached_input_tokens": 5504
+  },
+  {
+    "license_id": "ECL-2.0",
+    "run": 2,
+    "elapsed_s": 287.36,
+    "prompt_tokens": 8248,
+    "completion_tokens": 50324,
+    "reasoning_tokens": 49393,
+    "total_tokens": 58572,
+    "cached_input_tokens": 3456
+  },
+  {
+    "license_id": "EPL-2.0",
+    "run": 2,
+    "elapsed_s": 389.28,
+    "prompt_tokens": 7625,
+    "completion_tokens": 56069,
+    "reasoning_tokens": 55359,
+    "total_tokens": 63694,
+    "cached_input_tokens": 5504
+  },
+  {
+    "license_id": "GFDL",
+    "run": 2,
+    "elapsed_s": 286.91,
+    "prompt_tokens": 12176,
+    "completion_tokens": 48879,
+    "reasoning_tokens": 48083,
+    "total_tokens": 61055,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "GPL-2.0",
+    "run": 2,
+    "elapsed_s": 319.31,
+    "prompt_tokens": 12304,
+    "completion_tokens": 52523,
+    "reasoning_tokens": 51696,
+    "total_tokens": 64827,
+    "cached_input_tokens": 5248
+  },
+  {
+    "license_id": "GPL-3.0",
+    "run": 2,
+    "elapsed_s": 361.79,
+    "prompt_tokens": 12758,
+    "completion_tokens": 49306,
+    "reasoning_tokens": 48507,
+    "total_tokens": 62064,
+    "cached_input_tokens": 5376
+  },
+  {
+    "license_id": "LGPL-2.1",
+    "run": 2,
+    "elapsed_s": 322.92,
+    "prompt_tokens": 13230,
+    "completion_tokens": 45772,
+    "reasoning_tokens": 45073,
+    "total_tokens": 59002,
+    "cached_input_tokens": 5888
+  },
+  {
+    "license_id": "LGPL-3.0",
+    "run": 2,
+    "elapsed_s": 326.22,
+    "prompt_tokens": 8071,
+    "completion_tokens": 55899,
+    "reasoning_tokens": 55176,
+    "total_tokens": 63970,
+    "cached_input_tokens": 4224
+  },
+  {
+    "license_id": "LGPL-LR",
+    "run": 2,
+    "elapsed_s": 518.64,
+    "prompt_tokens": 11603,
+    "completion_tokens": 71186,
+    "reasoning_tokens": 70346,
+    "total_tokens": 82789,
+    "cached_input_tokens": 5248
+  },
+  {
+    "license_id": "Llama2",
+    "run": 2,
+    "elapsed_s": 568.21,
+    "prompt_tokens": 10547,
+    "completion_tokens": 99565,
+    "reasoning_tokens": 98707,
+    "total_tokens": 110112,
+    "cached_input_tokens": 8320
+  },
+  {
+    "license_id": "MIT",
+    "run": 2,
+    "elapsed_s": 197.73,
+    "prompt_tokens": 6153,
+    "completion_tokens": 36049,
+    "reasoning_tokens": 35306,
+    "total_tokens": 42202,
+    "cached_input_tokens": 5760
+  },
+  {
+    "license_id": "MPL-2.0",
+    "run": 2,
+    "elapsed_s": 351.38,
+    "prompt_tokens": 9671,
+    "completion_tokens": 57947,
+    "reasoning_tokens": 57157,
+    "total_tokens": 67618,
+    "cached_input_tokens": 3328
+  },
+  {
+    "license_id": "MPL-2.0-no-copyleft-exception",
+    "run": 2,
+    "elapsed_s": 373.73,
+    "prompt_tokens": 7840,
+    "completion_tokens": 53709,
+    "reasoning_tokens": 53033,
+    "total_tokens": 61549,
+    "cached_input_tokens": 3328
+  },
+  {
+    "license_id": "MS-PL",
+    "run": 2,
+    "elapsed_s": 392.42,
+    "prompt_tokens": 7376,
+    "completion_tokens": 72582,
+    "reasoning_tokens": 71806,
+    "total_tokens": 79958,
+    "cached_input_tokens": 3456
+  },
+  {
+    "license_id": "MS-RL",
+    "run": 2,
+    "elapsed_s": 301.85,
+    "prompt_tokens": 7381,
+    "completion_tokens": 56491,
+    "reasoning_tokens": 55794,
+    "total_tokens": 63872,
+    "cached_input_tokens": 3584
+  },
+  {
+    "license_id": "OFL-1.1",
+    "run": 2,
+    "elapsed_s": 370.19,
+    "prompt_tokens": 8222,
+    "completion_tokens": 37100,
+    "reasoning_tokens": 36427,
+    "total_tokens": 45322,
+    "cached_input_tokens": 3328
+  },
+  {
+    "license_id": "OPT-175B",
+    "run": 2,
+    "elapsed_s": 268.16,
+    "prompt_tokens": 10269,
+    "completion_tokens": 50857,
+    "reasoning_tokens": 50028,
+    "total_tokens": 61126,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "OSL-3.0",
+    "run": 2,
+    "elapsed_s": 238.89,
+    "prompt_tokens": 8430,
+    "completion_tokens": 49267,
+    "reasoning_tokens": 48598,
+    "total_tokens": 57697,
+    "cached_input_tokens": 3840
+  },
+  {
+    "license_id": "OpenRAIL++",
+    "run": 2,
+    "elapsed_s": 251.67,
+    "prompt_tokens": 10493,
+    "completion_tokens": 43800,
+    "reasoning_tokens": 42866,
+    "total_tokens": 54293,
+    "cached_input_tokens": 5376
+  },
+  {
+    "license_id": "OpenSSL",
+    "run": 2,
+    "elapsed_s": 143.66,
+    "prompt_tokens": 5291,
+    "completion_tokens": 20692,
+    "reasoning_tokens": 20101,
+    "total_tokens": 25983,
+    "cached_input_tokens": 3072
+  },
+  {
+    "license_id": "PDDL",
+    "run": 2,
+    "elapsed_s": 212.23,
+    "prompt_tokens": 6458,
+    "completion_tokens": 22625,
+    "reasoning_tokens": 21921,
+    "total_tokens": 29083,
+    "cached_input_tokens": 6016
+  },
+  {
+    "license_id": "SEER",
+    "run": 2,
+    "elapsed_s": 287.5,
+    "prompt_tokens": 7478,
+    "completion_tokens": 39370,
+    "reasoning_tokens": 38698,
+    "total_tokens": 46848,
+    "cached_input_tokens": 3968
+  },
+  {
+    "license_id": "Unlicense",
+    "run": 2,
+    "elapsed_s": 41.84,
+    "prompt_tokens": 5329,
+    "completion_tokens": 7266,
+    "reasoning_tokens": 6653,
+    "total_tokens": 12595,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "WTFPL-2.0",
+    "run": 2,
+    "elapsed_s": 188.79,
+    "prompt_tokens": 4649,
+    "completion_tokens": 20739,
+    "reasoning_tokens": 20221,
+    "total_tokens": 25388,
+    "cached_input_tokens": 4352
+  },
+  {
+    "license_id": "adobe-research-license",
+    "run": 2,
+    "elapsed_s": 174.21,
+    "prompt_tokens": 7156,
+    "completion_tokens": 29608,
+    "reasoning_tokens": 28933,
+    "total_tokens": 36764,
+    "cached_input_tokens": 3584
+  },
+  {
+    "license_id": "gemma-terms-of-use",
+    "run": 2,
+    "elapsed_s": 317.43,
+    "prompt_tokens": 13031,
+    "completion_tokens": 55249,
+    "reasoning_tokens": 54274,
+    "total_tokens": 68280,
+    "cached_input_tokens": 10240
+  },
+  {
+    "license_id": "llama-3.1-community-license-agreement",
+    "run": 2,
+    "elapsed_s": 337.35,
+    "prompt_tokens": 9708,
+    "completion_tokens": 53716,
+    "reasoning_tokens": 52875,
+    "total_tokens": 63424,
+    "cached_input_tokens": 9088
+  },
+  {
+    "license_id": "llama-32-community-license-agreement",
+    "run": 2,
+    "elapsed_s": 392.11,
+    "prompt_tokens": 9753,
+    "completion_tokens": 67636,
+    "reasoning_tokens": 66814,
+    "total_tokens": 77389,
+    "cached_input_tokens": 9088
+  },
+  {
+    "license_id": "llama-license-2023",
+    "run": 2,
+    "elapsed_s": 264.53,
+    "prompt_tokens": 9765,
+    "completion_tokens": 43195,
+    "reasoning_tokens": 42399,
+    "total_tokens": 52960,
+    "cached_input_tokens": 4736
+  },
+  {
+    "license_id": "mg-by-2.0",
+    "run": 2,
+    "elapsed_s": 308.06,
+    "prompt_tokens": 10284,
+    "completion_tokens": 62162,
+    "reasoning_tokens": 61269,
+    "total_tokens": 72446,
+    "cached_input_tokens": 4864
+  },
+  {
+    "license_id": "mg-by-nc-2.0",
+    "run": 2,
+    "elapsed_s": 263.08,
+    "prompt_tokens": 9887,
+    "completion_tokens": 39970,
+    "reasoning_tokens": 39137,
+    "total_tokens": 49857,
+    "cached_input_tokens": 5120
+  },
+  {
+    "license_id": "mg-by-nc-nd-2.0",
+    "run": 2,
+    "elapsed_s": 330.59,
+    "prompt_tokens": 11096,
+    "completion_tokens": 65223,
+    "reasoning_tokens": 64490,
+    "total_tokens": 76319,
+    "cached_input_tokens": 5376
+  },
+  {
+    "license_id": "mg-by-nc-rai-2.0",
+    "run": 2,
+    "elapsed_s": 182.82,
+    "prompt_tokens": 11954,
+    "completion_tokens": 35343,
+    "reasoning_tokens": 34424,
+    "total_tokens": 47297,
+    "cached_input_tokens": 5504
+  },
+  {
+    "license_id": "mg-by-nd-2.0",
+    "run": 2,
+    "elapsed_s": 310.57,
+    "prompt_tokens": 11137,
+    "completion_tokens": 63546,
+    "reasoning_tokens": 62637,
+    "total_tokens": 74683,
+    "cached_input_tokens": 5376
+  },
+  {
+    "license_id": "mg-by-rai-2.0",
+    "run": 2,
+    "elapsed_s": 336.01,
+    "prompt_tokens": 11581,
+    "completion_tokens": 61312,
+    "reasoning_tokens": 60473,
+    "total_tokens": 72893,
+    "cached_input_tokens": 5248
+  },
+  {
+    "license_id": "mg-by-sa-2.0",
+    "run": 2,
+    "elapsed_s": 300.91,
+    "prompt_tokens": 10917,
+    "completion_tokens": 62948,
+    "reasoning_tokens": 62057,
+    "total_tokens": 73865,
+    "cached_input_tokens": 4864
+  },
+  {
+    "license_id": "mg0-2.0",
+    "run": 2,
+    "elapsed_s": 324.32,
+    "prompt_tokens": 8529,
+    "completion_tokens": 58941,
+    "reasoning_tokens": 58214,
+    "total_tokens": 67470,
+    "cached_input_tokens": 4736
+  },
+  {
+    "license_id": "mistral-ai-research-license",
+    "run": 2,
+    "elapsed_s": 218.42,
+    "prompt_tokens": 10771,
+    "completion_tokens": 52542,
+    "reasoning_tokens": 51482,
+    "total_tokens": 63313,
+    "cached_input_tokens": 9984
+  },
+  {
+    "license_id": "qwen-research-license-agreement",
+    "run": 2,
+    "elapsed_s": 240.4,
+    "prompt_tokens": 10976,
+    "completion_tokens": 68398,
+    "reasoning_tokens": 67483,
+    "total_tokens": 79374,
+    "cached_input_tokens": 10368
+  },
+  {
+    "license_id": "stability-ai-community-license",
+    "run": 2,
+    "elapsed_s": 253.22,
+    "prompt_tokens": 11600,
+    "completion_tokens": 38023,
+    "reasoning_tokens": 37177,
+    "total_tokens": 49623,
+    "cached_input_tokens": 10880
+  },
+  {
+    "license_id": "tencent-hunyuan-community-license-agreement",
+    "run": 2,
+    "elapsed_s": 284.29,
+    "prompt_tokens": 13770,
+    "completion_tokens": 53397,
+    "reasoning_tokens": 52293,
+    "total_tokens": 67167,
+    "cached_input_tokens": 8192
+  },
+  {
+    "license_id": "0BSD",
+    "run": 3,
+    "elapsed_s": 166.46,
+    "prompt_tokens": 4869,
+    "completion_tokens": 17809,
+    "reasoning_tokens": 17253,
+    "total_tokens": 22678,
+    "cached_input_tokens": 4608
+  },
+  {
+    "license_id": "AFL-3.0",
+    "run": 3,
+    "elapsed_s": 280.06,
+    "prompt_tokens": 8510,
+    "completion_tokens": 40028,
+    "reasoning_tokens": 39394,
+    "total_tokens": 48538,
+    "cached_input_tokens": 7936
+  },
+  {
+    "license_id": "AGPL-3.0",
+    "run": 3,
+    "elapsed_s": 338.86,
+    "prompt_tokens": 14153,
+    "completion_tokens": 76119,
+    "reasoning_tokens": 75225,
+    "total_tokens": 90272,
+    "cached_input_tokens": 13312
+  },
+  {
+    "license_id": "Apache-2.0",
+    "run": 3,
+    "elapsed_s": 290.56,
+    "prompt_tokens": 10651,
+    "completion_tokens": 52025,
+    "reasoning_tokens": 51264,
+    "total_tokens": 62676,
+    "cached_input_tokens": 10112
+  },
+  {
+    "license_id": "Artistic-2.0",
+    "run": 3,
+    "elapsed_s": 336.68,
+    "prompt_tokens": 9269,
+    "completion_tokens": 62773,
+    "reasoning_tokens": 62004,
+    "total_tokens": 72042,
+    "cached_input_tokens": 7552
+  },
+  {
+    "license_id": "BSD-2-Clause",
+    "run": 3,
+    "elapsed_s": 109.19,
+    "prompt_tokens": 5654,
+    "completion_tokens": 15719,
+    "reasoning_tokens": 15076,
+    "total_tokens": 21373,
+    "cached_input_tokens": 5376
+  },
+  {
+    "license_id": "BSD-2-Clause-Patent",
+    "run": 3,
+    "elapsed_s": 388.43,
+    "prompt_tokens": 5505,
+    "completion_tokens": 71450,
+    "reasoning_tokens": 70818,
+    "total_tokens": 76955,
+    "cached_input_tokens": 5120
+  },
+  {
+    "license_id": "BSD-3-Clause",
+    "run": 3,
+    "elapsed_s": 182.17,
+    "prompt_tokens": 5819,
+    "completion_tokens": 21582,
+    "reasoning_tokens": 20949,
+    "total_tokens": 27401,
+    "cached_input_tokens": 5504
+  },
+  {
+    "license_id": "BSD-3-Clause-Clear",
+    "run": 3,
+    "elapsed_s": 199.28,
+    "prompt_tokens": 4482,
+    "completion_tokens": 33597,
+    "reasoning_tokens": 33032,
+    "total_tokens": 38079,
+    "cached_input_tokens": 4224
+  },
+  {
+    "license_id": "BigScience-BLOOM-OpenRAIL-M",
+    "run": 3,
+    "elapsed_s": 330.97,
+    "prompt_tokens": 9546,
+    "completion_tokens": 61579,
+    "reasoning_tokens": 60712,
+    "total_tokens": 71125,
+    "cached_input_tokens": 8064
+  },
+  {
+    "license_id": "BigScience-BLOOM-RAIL-1.0",
+    "run": 3,
+    "elapsed_s": 176.96,
+    "prompt_tokens": 12332,
+    "completion_tokens": 36065,
+    "reasoning_tokens": 35165,
+    "total_tokens": 48397,
+    "cached_input_tokens": 11520
+  },
+  {
+    "license_id": "C-UDA",
+    "run": 3,
+    "elapsed_s": 373.23,
+    "prompt_tokens": 6259,
+    "completion_tokens": 52449,
+    "reasoning_tokens": 51784,
+    "total_tokens": 58708,
+    "cached_input_tokens": 5888
+  },
+  {
+    "license_id": "CC-BY-4.0",
+    "run": 3,
+    "elapsed_s": 383.71,
+    "prompt_tokens": 9257,
+    "completion_tokens": 76334,
+    "reasoning_tokens": 75520,
+    "total_tokens": 85591,
+    "cached_input_tokens": 7680
+  },
+  {
+    "license_id": "CC-BY-NC-4.0",
+    "run": 3,
+    "elapsed_s": 307.38,
+    "prompt_tokens": 9202,
+    "completion_tokens": 55691,
+    "reasoning_tokens": 54934,
+    "total_tokens": 64893,
+    "cached_input_tokens": 7680
+  },
+  {
+    "license_id": "CC-BY-NC-ND-4.0",
+    "run": 3,
+    "elapsed_s": 311.64,
+    "prompt_tokens": 9349,
+    "completion_tokens": 60700,
+    "reasoning_tokens": 59836,
+    "total_tokens": 70049,
+    "cached_input_tokens": 8960
+  },
+  {
+    "license_id": "CC-BY-NC-SA-4.0",
+    "run": 3,
+    "elapsed_s": 275.9,
+    "prompt_tokens": 10883,
+    "completion_tokens": 46238,
+    "reasoning_tokens": 45377,
+    "total_tokens": 57121,
+    "cached_input_tokens": 9216
+  },
+  {
+    "license_id": "CC-BY-ND-4.0",
+    "run": 3,
+    "elapsed_s": 342.79,
+    "prompt_tokens": 9363,
+    "completion_tokens": 70788,
+    "reasoning_tokens": 69898,
+    "total_tokens": 80151,
+    "cached_input_tokens": 8832
+  },
+  {
+    "license_id": "CC-BY-SA-4.0",
+    "run": 3,
+    "elapsed_s": 243.17,
+    "prompt_tokens": 10829,
+    "completion_tokens": 40962,
+    "reasoning_tokens": 39979,
+    "total_tokens": 51791,
+    "cached_input_tokens": 9216
+  },
+  {
+    "license_id": "CC0-1.0",
+    "run": 3,
+    "elapsed_s": 185.68,
+    "prompt_tokens": 6807,
+    "completion_tokens": 26158,
+    "reasoning_tokens": 25439,
+    "total_tokens": 32965,
+    "cached_input_tokens": 6400
+  },
+  {
+    "license_id": "CreativeML-OpenRAIL-M",
+    "run": 3,
+    "elapsed_s": 253.15,
+    "prompt_tokens": 10855,
+    "completion_tokens": 50338,
+    "reasoning_tokens": 49523,
+    "total_tokens": 61193,
+    "cached_input_tokens": 10368
+  },
+  {
+    "license_id": "ECL-2.0",
+    "run": 3,
+    "elapsed_s": 401.13,
+    "prompt_tokens": 10072,
+    "completion_tokens": 56312,
+    "reasoning_tokens": 55499,
+    "total_tokens": 66384,
+    "cached_input_tokens": 9856
+  },
+  {
+    "license_id": "EPL-2.0",
+    "run": 3,
+    "elapsed_s": 379.06,
+    "prompt_tokens": 7625,
+    "completion_tokens": 58679,
+    "reasoning_tokens": 57954,
+    "total_tokens": 66304,
+    "cached_input_tokens": 7168
+  },
+  {
+    "license_id": "GFDL",
+    "run": 3,
+    "elapsed_s": 292.57,
+    "prompt_tokens": 12176,
+    "completion_tokens": 40275,
+    "reasoning_tokens": 39435,
+    "total_tokens": 52451,
+    "cached_input_tokens": 11648
+  },
+  {
+    "license_id": "GPL-2.0",
+    "run": 3,
+    "elapsed_s": 305.0,
+    "prompt_tokens": 12304,
+    "completion_tokens": 54580,
+    "reasoning_tokens": 53752,
+    "total_tokens": 66884,
+    "cached_input_tokens": 11776
+  },
+  {
+    "license_id": "GPL-3.0",
+    "run": 3,
+    "elapsed_s": 349.4,
+    "prompt_tokens": 15060,
+    "completion_tokens": 59035,
+    "reasoning_tokens": 58140,
+    "total_tokens": 74095,
+    "cached_input_tokens": 14208
+  },
+  {
+    "license_id": "LGPL-2.1",
+    "run": 3,
+    "elapsed_s": 359.7,
+    "prompt_tokens": 13230,
+    "completion_tokens": 54232,
+    "reasoning_tokens": 53426,
+    "total_tokens": 67462,
+    "cached_input_tokens": 12544
+  },
+  {
+    "license_id": "LGPL-3.0",
+    "run": 3,
+    "elapsed_s": 402.41,
+    "prompt_tokens": 9452,
+    "completion_tokens": 69915,
+    "reasoning_tokens": 69185,
+    "total_tokens": 79367,
+    "cached_input_tokens": 8320
+  },
+  {
+    "license_id": "LGPL-LR",
+    "run": 3,
+    "elapsed_s": 347.94,
+    "prompt_tokens": 11603,
+    "completion_tokens": 52283,
+    "reasoning_tokens": 51379,
+    "total_tokens": 63886,
+    "cached_input_tokens": 9344
+  },
+  {
+    "license_id": "Llama2",
+    "run": 3,
+    "elapsed_s": 516.94,
+    "prompt_tokens": 9363,
+    "completion_tokens": 78575,
+    "reasoning_tokens": 77761,
+    "total_tokens": 87938,
+    "cached_input_tokens": 8832
+  },
+  {
+    "license_id": "MIT",
+    "run": 3,
+    "elapsed_s": 233.81,
+    "prompt_tokens": 5316,
+    "completion_tokens": 25397,
+    "reasoning_tokens": 24761,
+    "total_tokens": 30713,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "MPL-2.0",
+    "run": 3,
+    "elapsed_s": 336.87,
+    "prompt_tokens": 9671,
+    "completion_tokens": 47287,
+    "reasoning_tokens": 46550,
+    "total_tokens": 56958,
+    "cached_input_tokens": 9344
+  },
+  {
+    "license_id": "MPL-2.0-no-copyleft-exception",
+    "run": 3,
+    "elapsed_s": 561.09,
+    "prompt_tokens": 9713,
+    "completion_tokens": 78957,
+    "reasoning_tokens": 78259,
+    "total_tokens": 88670,
+    "cached_input_tokens": 9344
+  },
+  {
+    "license_id": "MS-PL",
+    "run": 3,
+    "elapsed_s": 222.59,
+    "prompt_tokens": 7370,
+    "completion_tokens": 44969,
+    "reasoning_tokens": 44320,
+    "total_tokens": 52339,
+    "cached_input_tokens": 6912
+  },
+  {
+    "license_id": "MS-RL",
+    "run": 3,
+    "elapsed_s": 294.09,
+    "prompt_tokens": 7381,
+    "completion_tokens": 57953,
+    "reasoning_tokens": 57251,
+    "total_tokens": 65334,
+    "cached_input_tokens": 7040
+  },
+  {
+    "license_id": "OFL-1.1",
+    "run": 3,
+    "elapsed_s": 318.12,
+    "prompt_tokens": 8216,
+    "completion_tokens": 36877,
+    "reasoning_tokens": 36078,
+    "total_tokens": 45093,
+    "cached_input_tokens": 7808
+  },
+  {
+    "license_id": "OPT-175B",
+    "run": 3,
+    "elapsed_s": 205.46,
+    "prompt_tokens": 10269,
+    "completion_tokens": 36583,
+    "reasoning_tokens": 35737,
+    "total_tokens": 46852,
+    "cached_input_tokens": 9472
+  },
+  {
+    "license_id": "OSL-3.0",
+    "run": 3,
+    "elapsed_s": 337.06,
+    "prompt_tokens": 10165,
+    "completion_tokens": 60162,
+    "reasoning_tokens": 59346,
+    "total_tokens": 70327,
+    "cached_input_tokens": 9600
+  },
+  {
+    "license_id": "OpenRAIL++",
+    "run": 3,
+    "elapsed_s": 255.79,
+    "prompt_tokens": 10493,
+    "completion_tokens": 44984,
+    "reasoning_tokens": 44071,
+    "total_tokens": 55477,
+    "cached_input_tokens": 9728
+  },
+  {
+    "license_id": "OpenSSL",
+    "run": 3,
+    "elapsed_s": 264.37,
+    "prompt_tokens": 5291,
+    "completion_tokens": 43414,
+    "reasoning_tokens": 42786,
+    "total_tokens": 48705,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "PDDL",
+    "run": 3,
+    "elapsed_s": 281.07,
+    "prompt_tokens": 6458,
+    "completion_tokens": 38688,
+    "reasoning_tokens": 38041,
+    "total_tokens": 45146,
+    "cached_input_tokens": 6016
+  },
+  {
+    "license_id": "SEER",
+    "run": 3,
+    "elapsed_s": 178.78,
+    "prompt_tokens": 7478,
+    "completion_tokens": 31489,
+    "reasoning_tokens": 30788,
+    "total_tokens": 38967,
+    "cached_input_tokens": 6912
+  },
+  {
+    "license_id": "Unlicense",
+    "run": 3,
+    "elapsed_s": 110.79,
+    "prompt_tokens": 5329,
+    "completion_tokens": 14388,
+    "reasoning_tokens": 13748,
+    "total_tokens": 19717,
+    "cached_input_tokens": 4992
+  },
+  {
+    "license_id": "WTFPL-2.0",
+    "run": 3,
+    "elapsed_s": 165.58,
+    "prompt_tokens": 4649,
+    "completion_tokens": 17692,
+    "reasoning_tokens": 17172,
+    "total_tokens": 22341,
+    "cached_input_tokens": 4352
+  },
+  {
+    "license_id": "adobe-research-license",
+    "run": 3,
+    "elapsed_s": 180.39,
+    "prompt_tokens": 8336,
+    "completion_tokens": 38122,
+    "reasoning_tokens": 37307,
+    "total_tokens": 46458,
+    "cached_input_tokens": 8064
+  },
+  {
+    "license_id": "gemma-terms-of-use",
+    "run": 3,
+    "elapsed_s": 149.14,
+    "prompt_tokens": 13031,
+    "completion_tokens": 39975,
+    "reasoning_tokens": 39231,
+    "total_tokens": 53006,
+    "cached_input_tokens": 12416
+  },
+  {
+    "license_id": "llama-3.1-community-license-agreement",
+    "run": 3,
+    "elapsed_s": 316.56,
+    "prompt_tokens": 9708,
+    "completion_tokens": 50622,
+    "reasoning_tokens": 49768,
+    "total_tokens": 60330,
+    "cached_input_tokens": 9088
+  },
+  {
+    "license_id": "llama-32-community-license-agreement",
+    "run": 3,
+    "elapsed_s": 281.28,
+    "prompt_tokens": 9753,
+    "completion_tokens": 60812,
+    "reasoning_tokens": 59913,
+    "total_tokens": 70565,
+    "cached_input_tokens": 9088
+  },
+  {
+    "license_id": "llama-license-2023",
+    "run": 3,
+    "elapsed_s": 331.67,
+    "prompt_tokens": 9765,
+    "completion_tokens": 52602,
+    "reasoning_tokens": 51883,
+    "total_tokens": 62367,
+    "cached_input_tokens": 8064
+  },
+  {
+    "license_id": "mg-by-2.0",
+    "run": 3,
+    "elapsed_s": 285.16,
+    "prompt_tokens": 10284,
+    "completion_tokens": 71236,
+    "reasoning_tokens": 70338,
+    "total_tokens": 81520,
+    "cached_input_tokens": 9472
+  },
+  {
+    "license_id": "mg-by-nc-2.0",
+    "run": 3,
+    "elapsed_s": 220.03,
+    "prompt_tokens": 11155,
+    "completion_tokens": 52434,
+    "reasoning_tokens": 51621,
+    "total_tokens": 63589,
+    "cached_input_tokens": 9344
+  },
+  {
+    "license_id": "mg-by-nc-nd-2.0",
+    "run": 3,
+    "elapsed_s": 279.69,
+    "prompt_tokens": 12298,
+    "completion_tokens": 60772,
+    "reasoning_tokens": 59900,
+    "total_tokens": 73070,
+    "cached_input_tokens": 11008
+  },
+  {
+    "license_id": "mg-by-nc-rai-2.0",
+    "run": 3,
+    "elapsed_s": 214.34,
+    "prompt_tokens": 13301,
+    "completion_tokens": 59524,
+    "reasoning_tokens": 58571,
+    "total_tokens": 72825,
+    "cached_input_tokens": 12288
+  },
+  {
+    "license_id": "mg-by-nd-2.0",
+    "run": 3,
+    "elapsed_s": 189.86,
+    "prompt_tokens": 11127,
+    "completion_tokens": 39806,
+    "reasoning_tokens": 39078,
+    "total_tokens": 50933,
+    "cached_input_tokens": 10496
+  },
+  {
+    "license_id": "mg-by-rai-2.0",
+    "run": 3,
+    "elapsed_s": 214.97,
+    "prompt_tokens": 11581,
+    "completion_tokens": 37876,
+    "reasoning_tokens": 36984,
+    "total_tokens": 49457,
+    "cached_input_tokens": 9472
+  },
+  {
+    "license_id": "mg-by-sa-2.0",
+    "run": 3,
+    "elapsed_s": 303.42,
+    "prompt_tokens": 10907,
+    "completion_tokens": 55653,
+    "reasoning_tokens": 54841,
+    "total_tokens": 66560,
+    "cached_input_tokens": 10112
+  },
+  {
+    "license_id": "mg0-2.0",
+    "run": 3,
+    "elapsed_s": 294.19,
+    "prompt_tokens": 8529,
+    "completion_tokens": 56394,
+    "reasoning_tokens": 55687,
+    "total_tokens": 64923,
+    "cached_input_tokens": 7808
+  },
+  {
+    "license_id": "mistral-ai-research-license",
+    "run": 3,
+    "elapsed_s": 246.54,
+    "prompt_tokens": 12262,
+    "completion_tokens": 49221,
+    "reasoning_tokens": 48152,
+    "total_tokens": 61483,
+    "cached_input_tokens": 11392
+  },
+  {
+    "license_id": "qwen-research-license-agreement",
+    "run": 3,
+    "elapsed_s": 352.18,
+    "prompt_tokens": 9465,
+    "completion_tokens": 70635,
+    "reasoning_tokens": 69760,
+    "total_tokens": 80100,
+    "cached_input_tokens": 8960
+  },
+  {
+    "license_id": "stability-ai-community-license",
+    "run": 3,
+    "elapsed_s": 308.8,
+    "prompt_tokens": 11600,
+    "completion_tokens": 42148,
+    "reasoning_tokens": 41288,
+    "total_tokens": 53748,
+    "cached_input_tokens": 10880
+  },
+  {
+    "license_id": "tencent-hunyuan-community-license-agreement",
+    "run": 3,
+    "elapsed_s": 315.43,
+    "prompt_tokens": 13771,
+    "completion_tokens": 55484,
+    "reasoning_tokens": 54484,
+    "total_tokens": 69255,
+    "cached_input_tokens": 12928
+  }
+]

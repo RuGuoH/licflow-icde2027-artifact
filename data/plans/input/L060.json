@@ -1,0 +1,8 @@
+{
+  "id": "L060",
+  "title": "Unknown Mistral Research license modeling — MoE SaaS (L010 derived)",
+  "input": {
+    "nl_description": "用 Wikipedia 微调 BERT，将其与采用 mistral-ai-research-license_user_license 许可证的 Mistral 和 BLOOM 组成 MoE 后提供 API 服务，分析许可合规风险。",
+    "locale": "zh"
+  }
+}

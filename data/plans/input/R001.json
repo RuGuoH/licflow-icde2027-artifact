@@ -1,0 +1,8 @@
+{
+  "id": "R001",
+  "title": "legal_real M4 — Mistral Large-2 Research amalgamate sell",
+  "input": {
+    "nl_description": "用户已提供 Mistral Research License 全文；将 Mistral-7B（Apache-2.0）与 Mistral-Large-2（Research License）amalgamate 后打包出售模型权重，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

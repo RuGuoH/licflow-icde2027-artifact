@@ -1,0 +1,132 @@
+{
+  "analysis_success": true,
+  "derived_license": "MIT",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of OriginalCheckpoint according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of OriginalCheckpoint"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to Apache-2.0 of OriginalCheckpoint"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of OwnedWeightUpdate1 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of OwnedWeightUpdate1"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to Apache-2.0 of OwnedWeightUpdate1"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of A_OriginalCheckpoint_OwnedWeightUpdate1 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of A_OriginalCheckpoint_OwnedWeightUpdate1"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to Apache-2.0 of A_OriginalCheckpoint_OwnedWeightUpdate1"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of OwnedWeightUpdate2 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of OwnedWeightUpdate2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to Apache-2.0 of OwnedWeightUpdate2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of A_A_OriginalCheckpoint_OwnedWeightUpdate1_OwnedWeightUpdate2 according to MIT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to MIT of A_A_OriginalCheckpoint_OwnedWeightUpdate1_OwnedWeightUpdate2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of OriginalCheckpoint"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of OriginalCheckpoint according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of OwnedWeightUpdate1"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of OwnedWeightUpdate1 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of A_OriginalCheckpoint_OwnedWeightUpdate1"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of A_OriginalCheckpoint_OwnedWeightUpdate1 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of OwnedWeightUpdate2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of OwnedWeightUpdate2 according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of A_A_OriginalCheckpoint_OwnedWeightUpdate1_OwnedWeightUpdate2 according to MIT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to MIT of A_A_OriginalCheckpoint_OwnedWeightUpdate1_OwnedWeightUpdate2"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of CP_A_A_OriginalCheckpoint_OwnedWeightUpdate1_OwnedWeightUpdate2 according to MIT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to MIT of CP_A_A_OriginalCheckpoint_OwnedWeightUpdate1_OwnedWeightUpdate2"
+    }
+  ],
+  "engine_events": {
+    "errors": [],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  },
+  "verdict": "conditional",
+  "spec": [
+    "lineage",
+    2,
+    "raw",
+    "Apache-2.0",
+    null
+  ]
+}

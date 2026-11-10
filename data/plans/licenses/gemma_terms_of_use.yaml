@@ -1,0 +1,135 @@
+full_name: Gemma Terms of Use
+short_id: gemma-terms-of-use_user_license
+url: https://ai.google.dev/gemma/terms
+version: null
+available: true
+categories:
+- public
+- model
+labels:
+- Use Restriction
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- trademark
+- patent
+- copyright
+rights_prefix: []
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - saas
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - train
+  - amalgamate
+  - combine
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  keywords:
+  - Model Derivatives
+  - distillation
+  relicense: conditional
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - Model Derivatives
+  - distillation
+  relicense: conditional
+  copyleft: false
+- usages:
+  - modify
+  - train
+  - amalgamate
+  - combine
+  forms:
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  - include_use_restriction
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - Output
+  relicense: true
+  copyleft: false
+- usages:
+  - combine_mix
+  - embed
+  - augment
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

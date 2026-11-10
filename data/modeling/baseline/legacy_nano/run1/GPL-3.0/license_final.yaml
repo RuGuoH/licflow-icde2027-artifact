@@ -1,0 +1,65 @@
+full_name: GNU General Public License
+short_id: GPL-3.0
+url: https://www.gnu.org/licenses/gpl-3.0.html
+version: 3
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - generate
+  - embed
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - distill
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  - include_use_restriction
+  - include_runtime_restriction
+  relicense: true
+  copyleft: false

@@ -1,0 +1,105 @@
+full_name: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+short_id: CC-BY-NC-ND-4.0
+url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+version: 4.0
+available: true
+categories:
+- public
+- data
+- content
+labels: []
+rights:
+- use
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- no-charge
+- irrevocable
+coverage:
+- duplicate
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+- include_runtime_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - use
+  - redistribute
+  relicense: false
+  copyleft: false
+- usages:
+  - use
+  - copy
+  - modify
+  - augment
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  - include_runtime_restriction
+  keywords:
+  - use
+  - copy
+  - modify
+  - augment
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - generate
+  - embed
+  - stat
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - embed
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  - include_runtime_restriction
+  keywords:
+  - modify
+  - embed
+  - adapt
+  - alteration
+  relicense: false
+  copyleft: false

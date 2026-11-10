@@ -1,0 +1,32 @@
+[
+  {
+    "run": 1,
+    "model": "deepseek",
+    "temperature": "0.1",
+    "QA_QUESTION_WORKERS": "8",
+    "QA_THINKING": "off",
+    "QA_MAX_TOKENS": "4000",
+    "QA_RETRY_MAX_TOKENS": "8000",
+    "QA_LLM_TIMEOUT": "180"
+  },
+  {
+    "run": 2,
+    "model": "deepseek",
+    "temperature": "0.1",
+    "QA_QUESTION_WORKERS": "8",
+    "QA_THINKING": "off",
+    "QA_MAX_TOKENS": "4000",
+    "QA_RETRY_MAX_TOKENS": "8000",
+    "QA_LLM_TIMEOUT": "180"
+  },
+  {
+    "run": 3,
+    "model": "deepseek",
+    "temperature": "0.1",
+    "QA_QUESTION_WORKERS": "8",
+    "QA_THINKING": "off",
+    "QA_MAX_TOKENS": "4000",
+    "QA_RETRY_MAX_TOKENS": "8000",
+    "QA_LLM_TIMEOUT": "180"
+  }
+]

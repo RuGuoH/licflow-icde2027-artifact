@@ -1,0 +1,83 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+coverage:
+- duplicate
+- derivative
+full_name: Open Software License v3.0
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- patent_use
+- commercial_use
+rights_prefix:
+- worldwide
+- royalty-free
+- non-exclusive
+- sublicensable
+short_id: OSL-3.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: true
+  restrictions: []
+  result: duplicate
+  usages:
+  - combine
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - adapt
+  - alter
+  - transform
+  - modify
+  - arrange
+  relicense: false
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - embed
+  - train
+  - distill
+  - generate
+url: https://opensource.org/license/osl-3-0-php/
+version: 3.0

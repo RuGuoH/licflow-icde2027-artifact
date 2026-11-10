@@ -1,0 +1,96 @@
+full_name: 0BSD
+short_id: 0BSD
+url: https://opensource.org/licenses/0BSD
+version: null
+available: true
+categories:
+- public
+- software
+- permissive
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- copyright
+reserved_rights:
+- trademark_use
+- copyright
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+- non-transferable
+- non-sublicensable
+- revocable
+- sublicensable
+- any-person
+coverage:
+- duplicate
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  - modify
+  - augment
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - use
+  - copy
+  - modify
+  - augment
+  - generate
+  - embed
+  - stat
+  relicense: false
+  copyleft: false
+- usages:
+  - redistribute
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - distill
+  - generate
+  - embed
+  - stat
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - redistribute
+  - train
+  - combine
+  - combine_mix
+  - amalgamate
+  - distill
+  - generate
+  - embed
+  - stat
+  relicense: false
+  copyleft: false

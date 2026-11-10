@@ -1,0 +1,135 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+compat:
+- GPL-2.0-or-later
+- LGPL-2.1-or-later
+- AGPL-3.0-or-later
+coverage:
+- duplicate
+- derivative
+full_name: Mozilla Public License Version 2.0
+incompat: []
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+rights_prefix:
+- worldwide
+- royalty-free
+- non-exclusive
+short_id: MPL-2.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - use
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  keywords:
+  - distribute
+  - copy
+  - Distribution
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: false
+  forms:
+  - binary
+  keywords:
+  - distribute
+  - copy
+  - Distribution
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  keywords:
+  - Modifications
+  - modify
+  - alteration
+  relicense: conditional
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+- copyleft: false
+  forms:
+  - binary
+  keywords:
+  - Modifications
+  - modify
+  - alteration
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - Larger Work
+  - combine
+  - separate files
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+url: https://www.mozilla.org/en-US/MPL/2.0/
+version: 2.0

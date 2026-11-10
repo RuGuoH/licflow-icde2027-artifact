@@ -1,0 +1,8 @@
+{
+  "id": "L002",
+  "title": "Embed arxiv/stackexchange + combine sell (case 1.2)",
+  "input": {
+    "nl_description": "我想把 arXiv 和 StackExchange 分别用 NLLB-200 翻译之后，与 Deep-sequoia 和 FreeLaw 打包出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

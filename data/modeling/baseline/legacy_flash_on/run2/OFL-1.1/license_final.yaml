@@ -1,0 +1,128 @@
+full_name: SIL OPEN FONT LICENSE
+short_id: OFL-1.1
+url: null
+version: '1.1'
+available: true
+categories:
+- public
+- software
+- copyleft
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- copyright
+rights_prefix:
+- no-charge
+- any-person
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - use
+  - used
+  - copy
+  - copies
+  - redistributed
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - modify
+  - modified
+  - derivative
+  - changing
+  - porting
+  relicense: false
+  copyleft: true
+- usages:
+  - embed
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - embed
+  - embedded
+  - software
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - merge
+  relicense: false
+  copyleft: true
+- usages:
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  keywords:
+  - bundle
+  - bundled
+  - software
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  keywords:
+  - document
+  - created
+  - using
+  relicense: true
+  copyleft: false

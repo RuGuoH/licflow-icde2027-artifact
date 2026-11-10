@@ -1,0 +1,8 @@
+{
+  "id": "L083",
+  "title": "One MIT model, train, sell the weights",
+  "input": {
+    "nl_description": "我要把采用 MIT 许可证的模型甲继续训练，然后出售训练后的模型权重，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

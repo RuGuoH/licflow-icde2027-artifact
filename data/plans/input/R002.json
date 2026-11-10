@@ -1,0 +1,8 @@
+{
+  "id": "R002",
+  "title": "legal_real M2 — Llama-3.1 MAU MoE commercial API",
+  "input": {
+    "nl_description": "月活超过 7 亿的平台将 Wikipedia 微调 BERT 后与采用 llama-3.1-community-license-agreement 许可证的 Llama-3.1 和 BLOOM 组合后提供商用 API 服务，并对外宣传为「开源模型栈」，请问存在什么许可合规风险？",
+    "locale": "zh"
+  }
+}

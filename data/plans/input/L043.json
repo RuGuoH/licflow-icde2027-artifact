@@ -1,0 +1,8 @@
+{
+  "id": "L043",
+  "title": "Hybrid pipeline without Midjourney sell",
+  "input": {
+    "nl_description": "将 stocksnap 与 thingverse 融合为数据集A（不含 midjourney）。将 ccmixter 输入由 whisper、stable diffusion、i2vgen-xl 三个模型依次组成的生成链得到输出，前一个模型的输出作为后一个模型的输入，记作数据集B。将数据集B与 vimeo 融合得到数据集C。将数据集A与数据集C组合出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

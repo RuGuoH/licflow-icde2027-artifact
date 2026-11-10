@@ -1,0 +1,111 @@
+full_name: GNU LESSER GENERAL PUBLIC LICENSE
+short_id: LGPL-2.1
+url: https://example.com/license/LGPL-2.1
+version: '2.1'
+available: true
+categories:
+- public
+- software
+- copyleft
+- auto-relicensing
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+reserved_rights:
+- sublicense
+- copyright
+- patent
+- trademark
+rights_prefix: []
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat:
+- GPL-2.0
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - binary
+  - raw
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - work that uses
+  - link
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  relicense: conditional
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

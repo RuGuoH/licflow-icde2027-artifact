@@ -1,0 +1,8 @@
+{
+  "id": "L061",
+  "title": "Unknown Adobe Research license modeling — distill amalgamate (L031 derived)",
+  "input": {
+    "nl_description": "将 BLOOM 蒸馏到 BERT，再与采用 adobe-research-license_user_license 许可证的 Adobe-Model 和 BigTranslate 融合后出售，分析许可合规风险。",
+    "locale": "zh"
+  }
+}

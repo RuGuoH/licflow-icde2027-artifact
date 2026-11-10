@@ -1,0 +1,119 @@
+full_name: SIL OPEN FONT LICENSE
+short_id: OFL-1.1
+url: null
+version: '1.1'
+available: true
+categories:
+- public
+- software
+- copyleft
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+rights_prefix:
+- no-charge
+- any-person
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  - study
+  relicense: false
+  copyleft: true
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - copy
+  - distributed
+  - license
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: modification
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - modify
+  - merge
+  - Modified Version
+  - derivative
+  - adding
+  - deleting
+  - substituting
+  - changing formats
+  - porting
+  - distributed
+  - license
+  - Reserved Font Name
+  relicense: false
+  copyleft: true
+- usages:
+  - combine_mix
+  - embed
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - bundled
+  - embedded
+  - with any software
+  - document
+  - created
+  - license
+  - sold
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  result: independent
+  restrictions: []
+  keywords:
+  - document
+  - created
+  - using
+  - fonts
+  - derivatives
+  - license
+  relicense: true
+  copyleft: false

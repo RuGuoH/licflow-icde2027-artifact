@@ -1,0 +1,34 @@
+available: true
+categories:
+- public
+- software
+- data
+- model
+- permissive
+coverage: []
+full_name: The Unlicense
+labels:
+- Public Domain
+redistribute: []
+reserved_rights: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- copyright
+rights_prefix: []
+short_id: Unlicense
+terms:
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - use
+  - copy
+  - modify
+url: https://opensource.org/license/unlicense/
+version: null

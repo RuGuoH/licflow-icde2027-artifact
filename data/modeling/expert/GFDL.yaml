@@ -1,0 +1,77 @@
+available: true
+categories:
+- public
+- data
+- copyleft
+- disclose
+coverage:
+- duplicate
+- derivative
+full_name: GNU Free Documentation License v1.3
+incompat:
+- GPL
+labels:
+- GNU
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- sublicense
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix:
+- worldwide
+- royalty-free
+short_id: GFDL
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  - combining
+  - translation
+  relicense: false
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+  - combine
+  - amalgamate
+  - augment
+  - embed
+  - generate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - aggregation
+  relicense: true
+  result: independent
+  usages:
+  - combine_mix
+  - train
+  - distill
+  - stat
+url: https://www.gnu.org/licenses/fdl-1.3.en.html
+version: 1.3

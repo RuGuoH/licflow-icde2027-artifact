@@ -1,0 +1,143 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: Mozilla Public License 2.0 (no copyleft exception)
+incompat:
+- GPL-2.0-only
+- GPL-2.0-or-later
+- LGPL-2.1-only
+- LGPL-2.1-or-later
+- AGPL-3.0-only
+- AGPL-3.0-or-later
+labels: []
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+rights_prefix:
+- worldwide
+- royalty-free
+- non-exclusive
+short_id: MPL-2.0-no-copyleft-exception
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - use
+  - exercise
+  - exploit
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  keywords:
+  - copy
+  - distribute
+  - reproduce
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: false
+  forms:
+  - binary
+  keywords:
+  - copy
+  - distribute
+  - reproduce
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  keywords:
+  - modify
+  - modification
+  - contribution
+  - covered software
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+- copyleft: false
+  forms:
+  - binary
+  keywords:
+  - modify
+  - modification
+  - contribution
+  - covered software
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - larger work
+  - combine
+  - combination
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+url: https://spdx.org/licenses/MPL-2.0-no-copyleft-exception.html
+version: '2.0'

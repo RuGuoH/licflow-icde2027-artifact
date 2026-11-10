@@ -1,0 +1,8 @@
+{
+  "id": "L088",
+  "title": "One mg0-2.0 model, train, sell the weights",
+  "input": {
+    "nl_description": "我要把采用 mg0-2.0 许可证的模型己继续训练，然后出售训练后的模型权重，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

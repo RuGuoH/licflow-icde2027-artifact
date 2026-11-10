@@ -1,0 +1,135 @@
+full_name: GNU General Public License v2.0
+short_id: GPL-2.0
+url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+labels:
+- OSI Approved
+- GNU
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+- merge
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+- sublicense
+rights_prefix: []
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  keywords: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - copy
+  - redistribute
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - modify
+  - adaptation
+  - derivative work
+  relicense: false
+  copyleft: true
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - aggregation
+  - collection
+  relicense: false
+  copyleft: true
+- usages:
+  - combine
+  forms:
+  - raw
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  keywords:
+  - aggregation
+  - collection
+  relicense: false
+  copyleft: true
+- usages:
+  - combine
+  forms:
+  - binary
+  result: independent
+  restrictions: []
+  keywords:
+  - aggregation
+  - collection
+  relicense: true
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false

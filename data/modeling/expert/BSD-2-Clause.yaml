@@ -1,0 +1,62 @@
+available: true
+categories:
+- public
+- software
+- permissive
+coverage:
+- duplicate
+- derivative
+full_name: The 2-Clause BSD License
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+rights_prefix: []
+short_id: BSD-2-Clause
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  relicense: true
+  restrictions: []
+  result: derivative
+  usages:
+  - amalgamate
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - combine
+  - train
+  - distill
+  - generate
+  - embed
+url: https://opensource.org/license/bsd-2-clause/
+version: None

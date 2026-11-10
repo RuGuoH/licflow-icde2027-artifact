@@ -1,0 +1,8 @@
+{
+  "id": "L046",
+  "title": "Finetune BERT MoE personal SaaS (L010 S6)",
+  "input": {
+    "nl_description": "我用 Wikipedia 微调了 BERT，将其与 Baize 和 BLOOM 组成 MoE 后仅供个人以 API 方式使用，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

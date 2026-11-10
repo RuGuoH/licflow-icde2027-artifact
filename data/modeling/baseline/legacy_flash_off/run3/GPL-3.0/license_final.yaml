@@ -1,0 +1,114 @@
+full_name: GNU General Public License
+short_id: GPL-3.0
+url: https://www.gnu.org/licenses/gpl-3.0.html
+version: '3.0'
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+labels:
+- OSI Approved
+- GNU
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+- sublicense
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - run
+  - use
+  relicense: true
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - copy
+  - verbatim copies
+  - convey
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - modify
+  - modified version
+  - based on
+  - work based on the Program
+  relicense: false
+  copyleft: true
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  keywords:
+  - aggregate
+  - compilation
+  - separate and independent works
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - combined work
+  - link or combine
+  - single combined work
+  relicense: false
+  copyleft: true

@@ -1,0 +1,91 @@
+full_name: The Artistic License 2.0
+short_id: Artistic-2.0
+url: https://example.com/license/Artistic-2.0
+version: null
+available: true
+categories:
+- public
+- software
+- disclose
+- permissive
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- commercial_use
+- merge
+- patent_use
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: true
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - binary
+  - raw
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - aggregation
+  - link
+  - work that uses
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - amalgamate
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

@@ -1,0 +1,112 @@
+full_name: LLaMA LICENSE AGREEMENT
+short_id: llama-license-2023
+url: https://example.com/license/llama-license-2023
+version: null
+available: true
+categories:
+- public
+- software
+- proprietary
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- sublicense
+- commercial_use
+- copyright
+- patent
+- trademark
+- trademark_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+- non-sublicensable
+- revocable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_use_restriction
+  relicense: conditional
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_use_restriction
+  relicense: conditional
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  relicense: conditional
+  copyleft: false
+- usages:
+  - train
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms: &id001
+  - raw
+  - binary
+  result: NODEF
+- usages:
+  - distill
+  forms: *id001
+  result: NODEF
+  restrictions:
+  - include_use_restriction

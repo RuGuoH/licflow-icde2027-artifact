@@ -1,0 +1,111 @@
+full_name: Eclipse Public License - v 2.0
+short_id: EPL-2.0
+url: https://example.com/license/EPL-2.0
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- merge
+- commercial_use
+- patent_use
+reserved_rights:
+- copyright
+- patent
+- trademark
+- trademark_use
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_license
+- include_notice
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages: &id001
+  - modify
+  forms:
+  - raw
+  result: derivative
+  restrictions: &id002
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords: &id003
+  - modify
+- usages: *id001
+  forms:
+  - binary
+  result: derivative
+  restrictions: *id002
+  relicense: true
+  copyleft: false
+  keywords: *id003
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - link
+  - embed:0.663
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  - state_changes
+  relicense: conditional
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

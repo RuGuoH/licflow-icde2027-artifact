@@ -1,0 +1,123 @@
+full_name: 'Llama 2 Version Release Date: July 18, 2023'
+short_id: Llama2
+url: https://ai.meta.com/llama/use-policy
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- non-transferable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_use_restriction
+  - include_runtime_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: false
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+  keywords:
+  - output
+  - distill
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: conditional
+  copyleft: false
+  keywords:
+  - output
+  - distill
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - train
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

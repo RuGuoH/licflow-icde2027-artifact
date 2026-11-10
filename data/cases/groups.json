@@ -1,0 +1,18 @@
+{
+  "distillation": [
+    "I_gpl",
+    "I_ccsa",
+    "I_mgsa",
+    "I_rail"
+  ],
+  "delivery": [
+    "II_content",
+    "II_translate_nd",
+    "II_tools_binary"
+  ],
+  "lineage": [
+    "III_two_steps",
+    "III_two_steps_api",
+    "III_apache_control"
+  ]
+}

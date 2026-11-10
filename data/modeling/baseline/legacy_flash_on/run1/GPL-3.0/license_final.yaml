@@ -1,0 +1,173 @@
+full_name: GNU General Public License Version 3
+short_id: GPL-3.0
+url: https://www.gnu.org/licenses/
+version: 3.0
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+labels:
+- GNU
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+reserved_rights:
+- copyright
+- sublicense
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+- non-sublicensable
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat:
+- AGPL-3.0
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  keywords:
+  - run
+  - unmodified Program
+  - permission
+  - interaction
+  - computer network
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - copy
+  - verbatim copies
+  - source code
+  - copyright notice
+  - License
+  relicense: false
+  copyleft: true
+- usages:
+  - copy
+  forms:
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - object code
+  - Corresponding Source
+  - convey
+  - machine-readable
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - raw
+  result: modification
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - modify
+  - modified version
+  - based on
+  - source code
+  - prominent notices
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - binary
+  result: modification
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - object code
+  - modified
+  - Corresponding Source
+  - convey
+  relicense: false
+  copyleft: true
+- usages:
+  - modify
+  forms:
+  - saas
+  result: modification
+  restrictions: []
+  keywords:
+  - computer network
+  - not conveying
+  - without conditions
+  - run
+  relicense: false
+  copyleft: false
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - aggregate
+  - compilation
+  - separate
+  - independent
+  - storage
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_license
+  keywords:
+  - link
+  - combine
+  - single combined work
+  - GNU Affero General Public License
+  - network
+  relicense: conditional
+  copyleft: true
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: NODEF

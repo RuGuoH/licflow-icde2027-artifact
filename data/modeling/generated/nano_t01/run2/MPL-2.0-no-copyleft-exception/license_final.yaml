@@ -1,0 +1,110 @@
+full_name: Mozilla Public License Version 2.0
+short_id: MPL-2.0-no-copyleft-exception
+url: https://mozilla.org/MPL/2.0/
+version: '2.0'
+available: true
+categories:
+- public
+- software
+- copyleft
+- auto-relicensing
+- disclose
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+- patent_use
+reserved_rights:
+- copyright
+- patent
+- trademark
+- trademark_use
+rights_prefix:
+- non-exclusive
+- royalty-free
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat:
+- GPL-2.0
+- LGPL-2.1
+- AGPL-3.0
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages: &id001
+  - modify
+  forms:
+  - raw
+  result: derivative
+  restrictions: &id002
+  - state_changes
+  relicense: conditional
+  copyleft: true
+  keywords: &id003
+  - modify
+- usages: *id001
+  forms:
+  - binary
+  result: derivative
+  restrictions: *id002
+  relicense: true
+  copyleft: false
+  keywords: *id003
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: conditional
+  copyleft: true
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

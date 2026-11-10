@@ -1,0 +1,61 @@
+full_name: GNU General Public License
+short_id: GPL-2.0
+url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+version: 2
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- copyright
+rights_prefix:
+- worldwide
+- non-exclusive
+- no-charge
+- irrevocable
+- any-person
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  - use
+  - modify
+  - distribute
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+- usages:
+  - modify
+  - use
+  - copy
+  - distribute
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license

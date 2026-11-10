@@ -1,0 +1,94 @@
+full_name: Creative Commons Attribution 4.0 International Public License
+short_id: CC-BY-4.0
+url: null
+version: '4.0'
+available: true
+categories:
+- public
+- permissive
+- data
+labels:
+- Creative Commons
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+reserved_rights:
+- trademark_use
+- patent
+- sublicense
+rights_prefix:
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+- non-sublicensable
+coverage:
+- duplicate
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+- state_changes
+compat: []
+incompat: []
+terms:
+- usages:
+  - copy
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  keywords:
+  - reproduce
+  - Share
+  - Licensed Material
+  relicense: true
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - Adapted Material
+  - translated
+  - altered
+  - arranged
+  - transformed
+  - modified
+  relicense: true
+  copyleft: false
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  keywords:
+  - database
+  - contents
+  - Sui Generis Database Rights
+  relicense: true
+  copyleft: false

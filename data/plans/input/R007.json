@@ -1,0 +1,8 @@
+{
+  "id": "R007",
+  "title": "legal_real S2 — Cisco Linksys GPL firmware source obligation",
+  "input": {
+    "nl_description": "在 Linksys 路由器固件中 embed Linux 内核（GPL-2.0）与 BusyBox（GPL-2.0）后打包出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

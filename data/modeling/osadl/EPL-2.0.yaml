@@ -1,0 +1,39 @@
+_audit:
+  osadl_file: EPL-2.0-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - disclose_forms
+  - redistribute
+  - redistribute_slices
+  - prohibit_extra_restrictions
+  - grant_same_license
+  - patent_hints
+  schema_gaps:
+  - prohibit_extra_restrictions.no_mg_audit
+  - patent_hints.metadata_only
+categories:
+  copyleft: true
+  disclose: true
+copyleft_status: 'yes'
+disclose_forms:
+- binary
+grant_same_license: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+patent_hints: true
+prohibit_extra_restrictions: true
+redistribute:
+  include_license: true
+redistribute_slices:
+- forms:
+  - raw
+  include_license: true
+short_id: EPL-2.0

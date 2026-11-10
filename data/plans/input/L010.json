@@ -1,0 +1,8 @@
+{
+  "id": "L010",
+  "title": "Finetune BERT MoE SaaS sell (case 2.1)",
+  "input": {
+    "nl_description": "我用 Wikipedia 微调了 BERT，将其与 Whisper、I2VGen-XL 和 BLOOM 组成 MoE 后，让整个模型为外界提供 API 服务，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

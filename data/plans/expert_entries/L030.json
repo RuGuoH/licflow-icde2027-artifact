@@ -1,0 +1,93 @@
+{
+  "analysis_success": true,
+  "derived_license": "Unlicense",
+  "events": [
+    {
+      "type": "analysis error",
+      "info": "Work MaskFormer under CC-BY-NC-4.0 CONNOT BE RELICENSED to license Unlicense due to incompatibility."
+    },
+    {
+      "type": "rights error",
+      "info": "Work D_Wikimedia_OPT-175B_X-Clip does NOT grant you the right to RELICENSE"
+    },
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "rights error",
+      "info": "Work OPT-175B does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "rights error",
+      "info": "Work D_Wikimedia_OPT-175B_X-Clip does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "rights error",
+      "info": "Work MaskFormer does NOT grant you the right to COMMERCIAL_USE"
+    },
+    {
+      "type": "licenses warning",
+      "info": "License CC-BY-NC-4.0 is NO suitable for MaskFormer (model) licensing"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to OPT-175B of OPT-175B"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to OPT-175B of D_Wikimedia_OPT-175B_X-Clip"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to CC-BY-NC-4.0 of MaskFormer"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of X-Clip according to MIT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to MIT of X-Clip"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to OPT-175B of D_Wikimedia_OPT-175B_X-Clip"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of D_Wikimedia_OPT-175B_X-Clip according to OPT-175B"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of MaskFormer according to CC-BY-NC-4.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to CC-BY-NC-4.0 of MaskFormer"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Whisper according to MIT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to MIT of Whisper"
+    }
+  ],
+  "engine_events": {
+    "errors": [
+      "analysis error",
+      "rights error"
+    ],
+    "warnings": [
+      "licenses warning"
+    ],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+full_name: ModelGo Attribution License
+short_id: mg-by-2.0_user_license
+url: https://modelgo.ai
+version: "2.0"
+available: true
+categories:
+- public
+- software
+- model
+- permissive
+labels: []
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights_prefix:
+- non-exclusive
+- sublicensable
+- irrevocable
+- royalty-free
+- worldwide
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  keywords:
+  - use
+  - copy
+  - reproduce
+  - public display
+  - public perform
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - train
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  keywords:
+  - modify
+  - alteration
+  - improvement
+  - derivative works
+  - train
+  - fine-tune
+  - adapt
+  relicense: true
+  copyleft: false
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - aggregate
+  - collection
+  - distribution
+  - separable
+  relicense: true
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - transfer patterns
+  - output
+  - distillation
+  - synthetic data generation
+  relicense: true
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  keywords:
+  - output
+  - result
+  - generation
+  - information
+  - data
+  - content
+  relicense: true
+  copyleft: false
+- usages:
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

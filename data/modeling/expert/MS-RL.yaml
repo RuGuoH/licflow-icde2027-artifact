@@ -1,0 +1,101 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: Microsoft Reciprocal License
+incompat: []
+labels:
+- OSI Approved
+- Microsoft
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- copyright
+- patent
+- trademark
+- trademark_use
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+rights_prefix:
+- non-exclusive
+- worldwide
+- royalty-free
+short_id: MS-RL
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - use
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - reproduce
+  - reproduction
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - derivative works
+  - prepare derivative works
+  - contains code from the software
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - combine_mix
+  - augment
+  - stat
+url: https://spdx.org/licenses/MS-RL.html
+version: null

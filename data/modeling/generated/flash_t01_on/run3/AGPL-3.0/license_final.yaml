@@ -1,0 +1,136 @@
+full_name: GNU AFFERO GENERAL PUBLIC LICENSE
+short_id: AGPL-3.0
+url: https://www.gnu.org/licenses/
+version: '3'
+available: true
+categories:
+- public
+- software
+- copyleft
+- auto-relicensing
+- disclose
+labels: []
+rights:
+- modify
+- redistribute
+- use
+- merge
+- commercial_use
+- patent_use
+reserved_rights:
+- sublicense
+- copyright
+- patent
+- trademark
+rights_prefix:
+- worldwide
+- non-exclusive
+- royalty-free
+- irrevocable
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - work that uses
+  - link
+  - entire work
+  - aggregation
+- usages:
+  - combine
+  forms:
+  - raw
+  result: derivative
+  restrictions:
+  - state_changes
+  relicense: conditional
+  copyleft: true
+  keywords:
+  - work that uses
+  - link
+  - entire work
+  - aggregation
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - output
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_notice
+  relicense: false
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

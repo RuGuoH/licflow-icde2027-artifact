@@ -1,0 +1,106 @@
+full_name: BigScience RAIL License v1.0
+short_id: BigScience-BLOOM-RAIL-1.0
+url: null
+version: '1.0'
+available: true
+categories:
+- public
+- model
+- permissive
+labels:
+- OpenRAIL
+- Responsible AI
+- Use Restriction
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- patent_use
+- commercial_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+reserved_rights:
+- trademark_use
+coverage:
+- duplicate
+- derivative
+- modification
+redistribute:
+- include_notice
+- include_license
+- state_changes
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_use_restriction
+  keywords:
+  - use
+  - reproduce
+  - distribute
+  - hosted service
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  - saas
+  result: modification
+  restrictions:
+  - include_license
+  - state_changes
+  - include_use_restriction
+  keywords:
+  - modify
+  - modified files
+  - Derivatives of the Model
+  relicense: conditional
+  copyleft: false
+- usages:
+  - distribute
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - Distribution
+  - redistribute
+  - copies
+  relicense: false
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions:
+  - include_use_restriction
+  keywords:
+  - Output
+  - generate
+  relicense: true
+  copyleft: false

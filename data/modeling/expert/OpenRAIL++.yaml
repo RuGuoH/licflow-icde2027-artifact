@@ -1,0 +1,93 @@
+available: true
+categories:
+- public
+- model
+coverage:
+- duplicate
+- derivative
+full_name: Open RAIL++-M
+incompat:
+- GPL
+- AGPL
+- LGPL
+- GFDL
+labels:
+- OpenRAIL
+- Responsible AI
+- Use Restriction
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- sublicense
+- commercial_use
+- patent_use
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+short_id: OpenRAIL++
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_use_restriction
+  - include_runtime_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - transfer
+  - modification
+  relicense: conditional
+  restrictions:
+  - include_use_restriction
+  - include_runtime_restriction
+  result: derivative
+  usages:
+  - generate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - transfer
+  - modification
+  relicense: conditional
+  restrictions:
+  - state_changes
+  - include_use_restriction
+  - include_runtime_restriction
+  result: derivative
+  usages:
+  - combine
+  - amalgamate
+  - modify
+  - distill
+  - train
+url: https://huggingface.co/stabilityai/stable-diffusion-2/blob/main/LICENSE-MODEL
+version: null

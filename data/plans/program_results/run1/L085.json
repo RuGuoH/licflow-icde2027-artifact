@@ -1,0 +1,24 @@
+{
+  "analysis_success": true,
+  "derived_license": "Unlicense",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for FREE SHARING"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to Llama2 of 模型丙"
+    }
+  ],
+  "engine_events": {
+    "errors": [],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

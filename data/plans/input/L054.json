@@ -1,0 +1,8 @@
+{
+  "id": "L054",
+  "title": "Unknown StableDiffusion license modeling — generate chain (L020 derived)",
+  "input": {
+    "nl_description": "用户已提供 StableDiffusion 的许可协议全文；将 jamendo 经 whisper、baize、stable diffusion、i2vgen-xl 四步生成链处理后共享输出，分析许可合规风险。",
+    "locale": "zh"
+  }
+}

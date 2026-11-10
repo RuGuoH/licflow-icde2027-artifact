@@ -1,0 +1,113 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+- disclose
+- auto-relicensing
+compat:
+- AGPL-3.0
+coverage:
+- duplicate
+- derivative
+full_name: GNU General Public License v3.0
+labels:
+- OSI Approved
+- GNU
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- sublicense
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+- patent_use
+rights_prefix:
+- non-exclusive
+- worldwide
+- royalty-free
+- irrevocable
+short_id: GPL-3.0
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: false
+  forms:
+  - binary
+  keywords:
+  - separate
+  - aggregate
+  relicense: true
+  restrictions: []
+  result: independent
+  usages:
+  - combine
+- copyleft: true
+  forms:
+  - raw
+  relicense: conditional
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - combine
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - output
+  relicense: true
+  result: independent
+  usages:
+  - distill
+  - generate
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - link
+  relicense: conditional
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - amalgamate
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  relicense: false
+  restrictions:
+  - state_changes
+  result: derivative
+  usages:
+  - modify
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - train
+  - embed
+url: https://www.gnu.org/licenses/gpl-3.0.en.html
+version: 3.0

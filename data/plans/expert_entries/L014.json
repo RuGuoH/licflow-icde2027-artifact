@@ -1,0 +1,28 @@
+{
+  "analysis_success": true,
+  "derived_license": "Unlicense",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for PERSONAL"
+    },
+    {
+      "type": "licenses warning",
+      "info": "License CC-BY-NC-4.0 is NO suitable for MaskFormer (model) licensing"
+    },
+    {
+      "type": "licenses warning",
+      "info": "License CC-BY-NC-ND-4.0 is NO suitable for I2VGen-XL (model) licensing"
+    }
+  ],
+  "engine_events": {
+    "errors": [],
+    "warnings": [
+      "licenses warning"
+    ],
+    "restrictions": [],
+    "policy": [
+      "policy"
+    ]
+  }
+}

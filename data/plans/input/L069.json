@@ -1,0 +1,8 @@
+{
+  "id": "L069",
+  "title": "LGPL-Lib + finetuned BERT combine SaaS sell",
+  "input": {
+    "nl_description": "用 Wikipedia 微调 BERT，与 LGPL-Lib 组合后通过 API 对外商业服务，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

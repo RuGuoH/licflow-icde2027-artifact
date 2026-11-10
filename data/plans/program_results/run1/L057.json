@@ -1,0 +1,80 @@
+{
+  "analysis_success": true,
+  "derived_license": "gemma-terms-of-use_user_license",
+  "events": [
+    {
+      "type": "policy",
+      "info": "The desired release scenario of $WNAME$ is for SELLING"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to gemma-terms-of-use_user_license of Gemma"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must STATE the CHANGES according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the RUNTIME restriction terms according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of BERT according to Apache-2.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to Apache-2.0 of BERT"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of Gemma according to gemma-terms-of-use_user_license"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to gemma-terms-of-use_user_license of Gemma"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to gemma-terms-of-use_user_license of Gemma"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of BLOOM according to BigScience-BLOOM-RAIL-1.0"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to BigScience-BLOOM-RAIL-1.0 of BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN all NOTICE files (e.g. copyright, patent, trademark, and attribution) from the source form of C_T_BERT_Gemma_BLOOM according to gemma-terms-of-use_user_license"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must RETAIN the ORIGINAL LICENSE file according to gemma-terms-of-use_user_license of C_T_BERT_Gemma_BLOOM"
+    },
+    {
+      "type": "restriction",
+      "info": "Work $WNAME$ must comply with the USE restriction terms according to gemma-terms-of-use_user_license of C_T_BERT_Gemma_BLOOM"
+    }
+  ],
+  "engine_events": {
+    "errors": [],
+    "warnings": [],
+    "restrictions": [
+      "restriction"
+    ],
+    "policy": [
+      "policy"
+    ]
+  }
+}

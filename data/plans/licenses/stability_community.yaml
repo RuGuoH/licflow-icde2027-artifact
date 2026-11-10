@@ -1,0 +1,109 @@
+# Gold aligned to scripts/license_raw Stability Non-Commercial Research Community License
+full_name: Stability AI Non-Commercial Research Community License Agreement
+short_id: stability-ai-community-license_user_license
+url: https://stability.ai/license
+version: null
+available: true
+categories:
+- public
+- software
+- model
+- proprietary
+- copyleft
+labels:
+- Stability AI
+- Research Only
+- Non-Commercial
+- Use Restriction
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- trademark
+- trademark_use
+- sublicense
+- patent
+- copyright
+- commercial_use
+rights_prefix:
+- non-exclusive
+- non-transferable
+- non-sublicensable
+- revocable
+- royalty-free
+- worldwide
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  - saas
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - train
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: derivative
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  - state_changes
+  relicense: false
+  copyleft: true
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions:
+  - include_use_restriction
+  relicense: true
+  copyleft: false
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  - saas
+  result: independent
+  restrictions:
+  - include_use_restriction
+  relicense: conditional
+  copyleft: false
+- usages:
+  - distill
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  - saas
+  result: NODEF

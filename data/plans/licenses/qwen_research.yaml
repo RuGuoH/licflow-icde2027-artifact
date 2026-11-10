@@ -1,0 +1,113 @@
+full_name: Qwen Research License Agreement
+short_id: qwen-research-license-agreement_user_license
+url: https://github.com/QwenLM/Qwen
+version: null
+available: true
+categories:
+- public
+- model
+- software
+- proprietary
+labels:
+- Research Only
+- Non-Commercial
+- Use Restriction
+rights:
+- use
+- modify
+- merge
+- redistribute
+reserved_rights:
+- trademark
+- patent
+- copyright
+- commercial_use
+- trademark_use
+rights_prefix:
+- non-exclusive
+- worldwide
+- non-transferable
+- royalty-free
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+- include_use_restriction
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_license
+  - include_notice
+  - include_use_restriction
+  keywords:
+  - use
+  - reproduce
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  - train
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - state_changes
+  keywords:
+  - derivative works
+  relicense: true
+  copyleft: false
+- usages:
+  - distill
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - include_notice
+  keywords:
+  - outputs
+  - results
+  - train
+  - fine-tune
+  - improve
+  relicense: true
+  copyleft: false
+- usages:
+  - combine
+  - embed
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: conditional
+  copyleft: false
+- usages:
+  - generate
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

@@ -1,0 +1,8 @@
+{
+  "id": "L074",
+  "title": "OpenCorpus CC-BY-4.0 embed + combine sell",
+  "input": {
+    "nl_description": "将 OpenCorpus 用 NLLB-200 翻译后与其组合出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

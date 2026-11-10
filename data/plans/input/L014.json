@@ -1,0 +1,8 @@
+{
+  "id": "L014",
+  "title": "Finetune MaskFormer MoE personal (L011 variant)",
+  "input": {
+    "nl_description": "我用 Flickr 微调了 MaskFormer，将其与 I2VGen-XL 和 DETR 组成 MoE 后仅供个人使用，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

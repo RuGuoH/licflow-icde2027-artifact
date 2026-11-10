@@ -1,0 +1,54 @@
+_audit:
+  osadl_file: Apache-2.0-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - redistribute
+  - redistribute_slices
+  - patent_hints
+  - apache_hints
+  - redistribute_precision
+  - indemnify_on_service
+  - terms_slices
+  schema_gaps:
+  - indemnify_on_service
+apache_hints:
+  forward_patent: true
+  forward_trademark: true
+  notice_file: true
+categories:
+  copyleft: false
+  disclose: false
+copyleft_status: 'no'
+indemnify_on_service: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+patent_hints: true
+redistribute:
+  include_license: true
+  include_notice: true
+redistribute_precision:
+  no_global_state_changes: true
+redistribute_slices:
+- forms:
+  - raw
+  include_license: true
+  include_notice: true
+- forms:
+  - binary
+  include_license: true
+short_id: Apache-2.0
+terms_slices:
+- forms:
+  - raw
+  restrictions:
+  - state_changes
+  when:
+  - software_modification

@@ -1,0 +1,8 @@
+{
+  "id": "L023",
+  "title": "3-step generate + combine share",
+  "input": {
+    "nl_description": "我将 jamendo 输入由 whisper、stable diffusion、i2vgen-xl 三个模型依次组成的生成链，前一个模型的输出作为后一个模型的输入，将链中用到的模型与最终输出一起组合共享，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

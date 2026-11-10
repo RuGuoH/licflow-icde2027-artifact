@@ -1,0 +1,8 @@
+{
+  "id": "L035",
+  "title": "Distill only, no amalgamate (L031 simplified)",
+  "input": {
+    "nl_description": "将 BLOOM 的知识蒸馏到 BERT 后出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

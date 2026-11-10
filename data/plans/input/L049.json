@@ -1,0 +1,8 @@
+{
+  "id": "L049",
+  "title": "Hybrid pipeline share (L040 S6)",
+  "input": {
+    "nl_description": "将 stocksnap、midjourney、thingverse 融合为 A。将 ccmixter 输入由 whisper、baize、stable diffusion、i2vgen-xl 四个模型依次组成的生成链得到输出，前一个模型的输出作为后一个模型的输入，记作数据集B。将数据集B与 vimeo 融合为 C。再将 A 与 C 组合共享，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

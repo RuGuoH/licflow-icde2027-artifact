@@ -1,0 +1,103 @@
+full_name: GNU Free Documentation License
+short_id: GFDL
+url: https://www.gnu.org/licenses/
+version: '1.3'
+available: true
+categories:
+- public
+- software
+- data
+- model
+- copyleft
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- sublicense
+- merge
+- commercial_use
+reserved_rights:
+- copyright
+- patent
+- trademark
+rights_prefix: []
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions:
+  - state_changes
+  relicense: false
+  copyleft: true
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - binary
+  - raw
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - work that uses
+  - aggregation
+  - separate work
+  - embed:0.631
+- usages:
+  - amalgamate
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions:
+  - include_notice
+  - include_license
+  - state_changes
+  relicense: false
+  copyleft: false
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - stat
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

@@ -1,0 +1,105 @@
+available: true
+categories:
+- public
+- software
+- copyleft
+compat: []
+coverage:
+- duplicate
+- derivative
+full_name: SIL Open Font License 1.1
+incompat: []
+labels:
+- OSI Approved
+redistribute:
+- include_notice
+- include_license
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+- trademark
+rights:
+- use
+- modify
+- merge
+- redistribute
+- commercial_use
+rights_prefix:
+- no-charge
+- any-person
+short_id: OFL-1.1
+terms:
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - use
+  - study
+  relicense: false
+  restrictions: []
+  result: duplicate
+  usages:
+  - use
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - copy
+  - reproduce
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: duplicate
+  usages:
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  keywords:
+  - modify
+  - modified version
+  - derivative
+  - change formats
+  - porting
+  relicense: false
+  restrictions:
+  - include_notice
+  - include_license
+  result: derivative
+  usages:
+  - modify
+  - amalgamate
+- copyleft: false
+  forms:
+  - raw
+  - binary
+  keywords:
+  - bundle
+  - bundled
+  - sold with any software
+  relicense: true
+  restrictions:
+  - include_notice
+  - include_license
+  result: independent
+  usages:
+  - combine
+- forms:
+  - raw
+  - binary
+  result: NODEF
+  usages:
+  - train
+  - distill
+  - generate
+  - combine_mix
+  - augment
+  - embed
+  - stat
+url: https://spdx.org/licenses/OFL-1.1.html
+version: '1.1'

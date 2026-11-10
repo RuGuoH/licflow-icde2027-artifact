@@ -1,0 +1,8 @@
+{
+  "id": "L024",
+  "title": "3-step generate + combine share (Jamendo)",
+  "input": {
+    "nl_description": "我将 jamendo 经 whisper、stable diffusion、i2vgen-xl 三步生成链处理后，将这三个模型与最终输出一起组合共享，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

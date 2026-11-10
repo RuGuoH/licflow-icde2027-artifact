@@ -1,0 +1,35 @@
+_audit:
+  osadl_file: OFL-1.1-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - redistribute
+  - must_not_hints
+  - grant_same_license
+  - font_delivery
+  schema_gaps:
+  - font_hints.reserved_font_name
+  - font_hints.standalone_sale
+categories:
+  copyleft: true
+  disclose: false
+copyleft_status: 'yes'
+font_delivery: true
+grant_same_license: true
+must_not_hints:
+  promote_ban: true
+  reserved_font_name_ban: true
+  sell_font_standalone_ban: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+redistribute:
+  include_license: true
+  include_notice: true
+short_id: OFL-1.1

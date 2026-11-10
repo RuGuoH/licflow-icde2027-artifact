@@ -1,0 +1,67 @@
+available: true
+categories:
+- model
+- proprietary
+coverage:
+- duplicate
+full_name: SEER
+labels:
+- Meta
+- Use Restriction
+redistribute: []
+reserved_rights:
+- sublicense
+- trademark_use
+- copyright
+- patent
+- trademark
+- commercial_use
+rights:
+- use
+- modify
+- merge
+- redistribute
+- patent_use
+rights_prefix:
+- non-exclusive
+- worldwide
+- non-transferable
+- non-sublicensable
+- revocable
+- royalty-free
+short_id: SEER
+terms:
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - modify
+  - reproduce
+  - incorporate
+  relicense: false
+  restrictions:
+  - include_use_restriction
+  result: derivative
+  usages:
+  - combine
+  - amalgamate
+  - modify
+  - distill
+  - generate
+  - train
+url: https://github.com/facebookresearch/vissl/blob/main/projects/SEER/MODEL_LICENSE.md
+version: null

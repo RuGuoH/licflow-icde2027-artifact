@@ -1,0 +1,8 @@
+{
+  "id": "L022",
+  "title": "2-step generate chain share (ccMixter)",
+  "input": {
+    "nl_description": "我将 ccMixter 输入由 whisper、stable diffusion、i2vgen-xl 三步生成链处理，并将模型与输出组合后出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

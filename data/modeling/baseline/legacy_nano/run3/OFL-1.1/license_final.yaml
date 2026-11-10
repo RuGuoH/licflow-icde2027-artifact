@@ -1,0 +1,54 @@
+full_name: SIL Open Font License 1.1
+short_id: OFL-1.1
+url: https://opensource.org/licenses/OFL-1.1
+version: 1.1
+available: true
+categories:
+- public
+- data
+- font
+- permissive
+labels: []
+rights:
+- use
+- study
+- modify
+- redistribute
+- sell
+reserved_rights:
+- trademark_use
+- copyright
+- patent
+rights_prefix:
+- perpetual
+- worldwide
+- non-exclusive
+- no-charge
+- royalty-free
+- irrevocable
+coverage:
+- derivative
+- modification
+- translation
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  - study
+  - modify
+  - redistribute
+  - sell
+  forms:
+  - raw
+  - binary
+  result: NODEF
+  restrictions:
+  - include_notice
+  - include_license
+  - include_use_restriction
+  relicense: false
+  copyleft: false

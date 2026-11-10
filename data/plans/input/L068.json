@@ -1,0 +1,8 @@
+{
+  "id": "L068",
+  "title": "Finetune AGPL-Tool + Whisper MoE SaaS sell",
+  "input": {
+    "nl_description": "用 Wikipedia 微调 AGPL-Tool，与 Whisper 组成 MoE 后以 SaaS 形式出售，请问违反了什么许可证问题？",
+    "locale": "zh"
+  }
+}

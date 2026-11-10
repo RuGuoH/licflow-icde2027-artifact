@@ -1,0 +1,93 @@
+full_name: Computational Use of Data Agreement v1.0
+short_id: C-UDA
+url: https://example.com/license/C-UDA
+version: '1.0'
+available: true
+categories:
+- data
+- copyleft
+labels: []
+rights:
+- use
+- modify
+- redistribute
+- merge
+- commercial_use
+reserved_rights:
+- patent_use
+- copyright
+- patent
+- trademark
+rights_prefix: []
+coverage:
+- duplicate
+- derivative
+redistribute:
+- include_notice
+- include_license
+compat: []
+incompat: []
+terms:
+- usages:
+  - use
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions: []
+  relicense: false
+  copyleft: false
+- usages:
+  - copy
+  forms:
+  - raw
+  - binary
+  result: duplicate
+  restrictions:
+  - include_notice
+  - include_license
+  relicense: false
+  copyleft: false
+- usages:
+  - modify
+  forms:
+  - raw
+  - binary
+  result: derivative
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - modify
+- usages:
+  - combine
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+- usages:
+  - stat
+  forms:
+  - raw
+  - binary
+  result: independent
+  restrictions: []
+  relicense: true
+  copyleft: false
+  keywords:
+  - stat
+- usages:
+  - train
+  - distill
+  - generate
+  - embed
+  - augment
+  - amalgamate
+  - combine_mix
+  forms:
+  - raw
+  - binary
+  result: NODEF

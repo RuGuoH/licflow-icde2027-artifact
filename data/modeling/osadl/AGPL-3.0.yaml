@@ -1,0 +1,84 @@
+_audit:
+  osadl_file: AGPL-3.0-only-opt.json
+  profile_version: 4
+  provides:
+  - copyleft_status
+  - categories
+  - disclose_forms
+  - redistribute
+  - redistribute_slices
+  - must_not_hints
+  - reserved_hints
+  - prohibit_extra_restrictions
+  - grant_same_license
+  - patent_hints
+  - gpl3_hints
+  - terms_slices
+  - network_service
+  schema_gaps:
+  - prohibit_extra_restrictions.no_mg_audit
+  - patent_hints.metadata_only
+  - gpl3_hints.installation_info
+  - gpl3_hints.additional_terms
+  - gpl3_hints.anti_circumvention
+categories:
+  copyleft: true
+  disclose: true
+copyleft_status: 'yes'
+disclose_forms:
+- binary
+- saas
+gpl3_hints:
+  additional_terms: true
+  anti_circumvention_ban: true
+  installation_info: true
+grant_same_license: true
+must_not_hints:
+  anti_circumvention_ban: true
+  modify_license_ban: true
+  modify_license_notices_ban: true
+network_service: true
+not_provided:
+- usages
+- result
+- relicense
+- compat
+- rights
+- coverage
+- labels
+patent_hints: true
+prohibit_extra_restrictions: true
+redistribute:
+  include_license: true
+  include_notice: true
+redistribute_slices:
+- forms:
+  - raw
+  include_license: true
+  include_notice: true
+- forms:
+  - binary
+  include_license: true
+  include_notice: true
+reserved_hints:
+  sublicense_prohibited: true
+short_id: AGPL-3.0
+terms_slices:
+- forms:
+  - binary
+  restrictions:
+  - state_changes
+  when:
+  - software_modification
+- forms:
+  - raw
+  restrictions:
+  - state_changes
+  when:
+  - software_modification
+- forms:
+  - saas
+  obligations:
+  - source_disclosure
+  when:
+  - software_modification

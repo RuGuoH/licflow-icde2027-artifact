@@ -1,0 +1,70 @@
+available: true
+categories:
+- model
+- proprietary
+coverage:
+- duplicate
+- derivative
+full_name: OPT-175B
+labels:
+- Meta
+- Use Restriction
+redistribute:
+- include_license
+- include_notice
+reserved_rights:
+- sublicense
+- trademark_use
+- copyright
+- patent
+- trademark
+- commercial_use
+rights:
+- use
+- modify
+- merge
+- redistribute
+- patent_use
+rights_prefix:
+- non-exclusive
+- worldwide
+- non-transferable
+- non-sublicensable
+- revocable
+- royalty-free
+short_id: OPT-175B
+terms:
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  - saas
+  relicense: false
+  restrictions:
+  - include_use_restriction
+  result: duplicate
+  usages:
+  - use
+  - copy
+- copyleft: true
+  forms:
+  - raw
+  - binary
+  - saas
+  keywords:
+  - modify
+  - reproduce
+  - incorporate
+  relicense: false
+  restrictions:
+  - include_use_restriction
+  result: derivative
+  usages:
+  - combine
+  - amalgamate
+  - modify
+  - distill
+  - generate
+  - train
+url: https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md
+version: null
